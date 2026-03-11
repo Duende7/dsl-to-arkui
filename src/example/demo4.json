@@ -1,0 +1,773 @@
+[{
+    "guid": "page",
+    "name": "Page",
+    "componentName": "Page",
+    "props": {
+        "className": "width-all Page"
+    },
+    "comment": "",
+    "children": [{
+        "guid": "33:30291",
+        "name": "评测集13",
+        "componentName": "div",
+        "props": {
+            "className": "page-box flex-column"
+        },
+        "comment": "",
+        "children": [{
+                "guid": "34:25074",
+                "name": "1.StatusBar",
+                "componentName": "div",
+                "props": {
+                    "className": "page-box-0-1 width-all flex flex-between-center"
+                },
+                "comment": "",
+                "children": [{
+                        "guid": "34:26226",
+                        "name": "08:08",
+                        "componentName": "span",
+                        "props": {
+                            "className": "text text-single"
+                        },
+                        "comment": "",
+                        "children": "08:08",
+                        "scriptCode": []
+                    },
+                    {
+                        "guid": "34:26227",
+                        "name": "画板 1",
+                        "componentName": "div",
+                        "props": {
+                            "className": "static"
+                        },
+                        "comment": "",
+                        "children": [],
+                        "scriptCode": []
+                    }
+                ],
+                "scriptCode": []
+            },
+            {
+                "guid": "34:25133",
+                "name": "Pagetitle",
+                "componentName": "div",
+                "props": {
+                    "className": "page-box-1-1 width-all flex"
+                },
+                "comment": "",
+                "children": [{
+                        "guid": "34:26653",
+                        "name": "left",
+                        "componentName": "div",
+                        "props": {
+                            "className": "page-box-2 flex"
+                        },
+                        "comment": "",
+                        "children": [{
+                                "guid": "34:26654",
+                                "name": "18图标/02导航栏/公共/返回箭头",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "icon icon-size-24"
+                                },
+                                "comment": "",
+                                "children": [],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "34:26656",
+                                "name": "ihelp_icon",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "icon-3-1 icon-size-24"
+                                },
+                                "comment": "",
+                                "children": [],
+                                "scriptCode": []
+                            }
+                        ],
+                        "scriptCode": []
+                    },
+                    {
+                        "guid": "34:26675",
+                        "name": "工作台",
+                        "componentName": "span",
+                        "props": {
+                            "className": "text-4 text-single"
+                        },
+                        "comment": "",
+                        "children": "工作台",
+                        "scriptCode": []
+                    },
+                    {
+                        "guid": "34:26679",
+                        "name": "导航栏/胶囊 copy",
+                        "componentName": "div",
+                        "props": {
+                            "className": "static-5-1 flex"
+                        },
+                        "comment": "",
+                        "children": [{
+                                "guid": "34:26682",
+                                "name": "icon更多 copy",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "icon-6-1 icon-size-32"
+                                },
+                                "comment": "",
+                                "children": [],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "34:26807",
+                                "name": "icon关闭 copy",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "icon-7-1 icon-size-32"
+                                },
+                                "comment": "",
+                                "children": [],
+                                "scriptCode": []
+                            }
+                        ],
+                        "scriptCode": []
+                    }
+                ],
+                "scriptCode": []
+            },
+            {
+                "guid": "33:30295-2-box",
+                "name": "box",
+                "componentName": "div",
+                "props": {
+                    "className": "layout-h flex"
+                },
+                "comment": "",
+                "children": [{
+                        "guid": "33:30295",
+                        "name": "Card",
+                        "componentName": "section",
+                        "props": {
+                            "className": "section flex-column"
+                        },
+                        "comment": "",
+                        "children": [{
+                                "guid": "33:30296",
+                                "name": "icon icon-mobile-addswitch-light-square-48",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "icon-8-1 icon-size-48"
+                                },
+                                "comment": "",
+                                "children": [],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "33:30297",
+                                "name": "文本=14&12,实例=on",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "section-box flex-column"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "33:30298",
+                                        "name": "设备",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-9"
+                                        },
+                                        "comment": "",
+                                        "children": "设备",
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "33:30299",
+                                        "name": "辅助智能化研发",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-10"
+                                        },
+                                        "comment": "",
+                                        "children": "辅助智能化研发",
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            }
+                        ],
+                        "scriptCode": []
+                    },
+                    {
+                        "guid": "33:30300",
+                        "name": "Card",
+                        "componentName": "div",
+                        "props": {
+                            "className": "static-11 flex"
+                        },
+                        "comment": "",
+                        "children": [{
+                            "guid": "33:30302",
+                            "name": "文本=14&12,实例=on",
+                            "componentName": "div",
+                            "props": {
+                                "className": "page-box-12 flex-column"
+                            },
+                            "comment": "",
+                            "children": [{
+                                    "guid": "33:30303",
+                                    "name": "电站",
+                                    "componentName": "span",
+                                    "props": {
+                                        "className": "text-13"
+                                    },
+                                    "comment": "",
+                                    "children": "电站",
+                                    "scriptCode": []
+                                },
+                                {
+                                    "guid": "33:30304",
+                                    "name": "平台智能调度监控",
+                                    "componentName": "span",
+                                    "props": {
+                                        "className": "text-14"
+                                    },
+                                    "comment": "",
+                                    "children": "平台智能调度监控",
+                                    "scriptCode": []
+                                }
+                            ],
+                            "scriptCode": []
+                        }],
+                        "scriptCode": []
+                    }
+                ],
+                "scriptCode": []
+            },
+            {
+                "guid": "33:30305",
+                "name": "div",
+                "componentName": "div",
+                "props": {
+                    "className": "page-box-15 relative flex-column"
+                },
+                "comment": "",
+                "children": [{
+                        "guid": "33:30307-1-box",
+                        "name": "box",
+                        "componentName": "div",
+                        "props": {
+                            "className": "layout-h-16 flex"
+                        },
+                        "comment": "",
+                        "children": [{
+                                "guid": "33:30307",
+                                "name": "Card",
+                                "componentName": "section",
+                                "props": {
+                                    "className": "section-17 flex"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "33:30308",
+                                        "name": "icon icon-mobile-template-light-square-48",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "icon-18-1 icon-size-48"
+                                        },
+                                        "comment": "",
+                                        "children": [],
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "33:30309",
+                                        "name": "文本",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "section-box-19 flex-column"
+                                        },
+                                        "comment": "",
+                                        "children": [{
+                                                "guid": "33:30310",
+                                                "name": "设备",
+                                                "componentName": "span",
+                                                "props": {
+                                                    "className": "text-20"
+                                                },
+                                                "comment": "",
+                                                "children": "设备",
+                                                "scriptCode": []
+                                            },
+                                            {
+                                                "guid": "33:30311",
+                                                "name": "构建服务",
+                                                "componentName": "span",
+                                                "props": {
+                                                    "className": "text-21"
+                                                },
+                                                "comment": "",
+                                                "children": "构建服务",
+                                                "scriptCode": []
+                                            }
+                                        ],
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "33:30312",
+                                "name": "Card",
+                                "componentName": "section",
+                                "props": {
+                                    "className": "section-22 flex"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "33:30313",
+                                        "name": "icon icon-mobile-book-light-square-48",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "icon-23-1 icon-size-48"
+                                        },
+                                        "comment": "",
+                                        "children": [],
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "33:30314",
+                                        "name": "文本",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "section-box-24 flex-column"
+                                        },
+                                        "comment": "",
+                                        "children": [{
+                                                "guid": "33:30315",
+                                                "name": "生产线",
+                                                "componentName": "span",
+                                                "props": {
+                                                    "className": "text-25"
+                                                },
+                                                "comment": "",
+                                                "children": "生产线",
+                                                "scriptCode": []
+                                            },
+                                            {
+                                                "guid": "33:30316",
+                                                "name": "研发工具",
+                                                "componentName": "span",
+                                                "props": {
+                                                    "className": "text-26"
+                                                },
+                                                "comment": "",
+                                                "children": "研发工具",
+                                                "scriptCode": []
+                                            }
+                                        ],
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            }
+                        ],
+                        "scriptCode": []
+                    },
+                    {
+                        "guid": "33:30319-0-box",
+                        "name": "box",
+                        "componentName": "div",
+                        "props": {
+                            "className": "layout-h-27 flex flex-between-center"
+                        },
+                        "comment": "",
+                        "children": [{
+                                "guid": "33:30319",
+                                "name": "icon icon-mobile-bell-light-circle-48",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "icon-28-1 icon-size-48"
+                                },
+                                "comment": "",
+                                "children": [],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "33:30325",
+                                "name": "文本",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "page-box-29 flex-column"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "33:30326",
+                                        "name": "日志",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-30"
+                                        },
+                                        "comment": "",
+                                        "children": "日志",
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "33:30327",
+                                        "name": "流水线服务",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-31"
+                                        },
+                                        "comment": "",
+                                        "children": "流水线服务",
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            }
+                        ],
+                        "scriptCode": []
+                    },
+                    {
+                        "guid": "33:30328",
+                        "name": "card",
+                        "componentName": "div",
+                        "props": {
+                            "className": "page-box-32 flex"
+                        },
+                        "comment": "",
+                        "children": [{
+                            "guid": "33:30330",
+                            "name": "画板 37",
+                            "componentName": "div",
+                            "props": {
+                                "className": "page-box-33 flex-column"
+                            },
+                            "comment": "",
+                            "children": [{
+                                    "guid": "33:30329",
+                                    "name": "未修复漏洞",
+                                    "componentName": "span",
+                                    "props": {
+                                        "className": "text-34"
+                                    },
+                                    "comment": "",
+                                    "children": "未修复漏洞",
+                                    "scriptCode": []
+                                },
+                                {
+                                    "guid": "33:30331",
+                                    "name": "画板 36",
+                                    "componentName": "div",
+                                    "props": {
+                                        "className": "page-box-35 width-all flex flex-start-center"
+                                    },
+                                    "comment": "",
+                                    "children": [{
+                                            "guid": "33:30332",
+                                            "name": "Tag",
+                                            "componentName": "div",
+                                            "props": {
+                                                "className": "page-box-36-1 flex"
+                                            },
+                                            "comment": "",
+                                            "children": [{
+                                                    "guid": "34:25526",
+                                                    "name": "状态点",
+                                                    "componentName": "div",
+                                                    "props": {
+                                                        "className": "static-37 icon-size-8"
+                                                    },
+                                                    "comment": "",
+                                                    "children": [],
+                                                    "scriptCode": []
+                                                },
+                                                {
+                                                    "guid": "34:25527",
+                                                    "name": "一级未修复漏洞",
+                                                    "componentName": "span",
+                                                    "props": {
+                                                        "className": "text-38 text-single"
+                                                    },
+                                                    "comment": "",
+                                                    "children": "一级未修复漏洞",
+                                                    "scriptCode": []
+                                                }
+                                            ],
+                                            "scriptCode": []
+                                        },
+                                        {
+                                            "guid": "33:30333",
+                                            "name": "5",
+                                            "componentName": "span",
+                                            "props": {
+                                                "className": "text-39 text-single"
+                                            },
+                                            "comment": "",
+                                            "children": "5",
+                                            "scriptCode": []
+                                        }
+                                    ],
+                                    "scriptCode": []
+                                },
+                                {
+                                    "guid": "33:30334",
+                                    "name": "画板 36",
+                                    "componentName": "div",
+                                    "props": {
+                                        "className": "page-box-40 width-all flex flex-start-center"
+                                    },
+                                    "comment": "",
+                                    "children": [{
+                                            "guid": "33:30335",
+                                            "name": "Tag",
+                                            "componentName": "div",
+                                            "props": {
+                                                "className": "page-box-41-1 flex"
+                                            },
+                                            "comment": "",
+                                            "children": [{
+                                                    "guid": "34:25318",
+                                                    "name": "状态点",
+                                                    "componentName": "div",
+                                                    "props": {
+                                                        "className": "static-42 icon-size-8"
+                                                    },
+                                                    "comment": "",
+                                                    "children": [],
+                                                    "scriptCode": []
+                                                },
+                                                {
+                                                    "guid": "34:25319",
+                                                    "name": "二级未修复漏洞",
+                                                    "componentName": "span",
+                                                    "props": {
+                                                        "className": "text-43 text-single"
+                                                    },
+                                                    "comment": "",
+                                                    "children": "二级未修复漏洞",
+                                                    "scriptCode": []
+                                                }
+                                            ],
+                                            "scriptCode": []
+                                        },
+                                        {
+                                            "guid": "33:30336",
+                                            "name": "235",
+                                            "componentName": "span",
+                                            "props": {
+                                                "className": "text-44 text-single"
+                                            },
+                                            "comment": "",
+                                            "children": "235",
+                                            "scriptCode": []
+                                        }
+                                    ],
+                                    "scriptCode": []
+                                },
+                                {
+                                    "guid": "33:30337",
+                                    "name": "画板 36",
+                                    "componentName": "div",
+                                    "props": {
+                                        "className": "page-box-45 width-all flex flex-start-center"
+                                    },
+                                    "comment": "",
+                                    "children": [{
+                                            "guid": "33:30338",
+                                            "name": "Tag",
+                                            "componentName": "div",
+                                            "props": {
+                                                "className": "page-box-46-1 flex"
+                                            },
+                                            "comment": "",
+                                            "children": [{
+                                                    "guid": "34:25329",
+                                                    "name": "状态点",
+                                                    "componentName": "div",
+                                                    "props": {
+                                                        "className": "static-47 icon-size-8"
+                                                    },
+                                                    "comment": "",
+                                                    "children": [],
+                                                    "scriptCode": []
+                                                },
+                                                {
+                                                    "guid": "34:25330",
+                                                    "name": "三级未修复漏洞",
+                                                    "componentName": "span",
+                                                    "props": {
+                                                        "className": "text-48 text-single"
+                                                    },
+                                                    "comment": "",
+                                                    "children": "三级未修复漏洞",
+                                                    "scriptCode": []
+                                                }
+                                            ],
+                                            "scriptCode": []
+                                        },
+                                        {
+                                            "guid": "33:30339",
+                                            "name": "2,562",
+                                            "componentName": "span",
+                                            "props": {
+                                                "className": "text-49 text-single"
+                                            },
+                                            "comment": "",
+                                            "children": "2,562",
+                                            "scriptCode": []
+                                        }
+                                    ],
+                                    "scriptCode": []
+                                },
+                                {
+                                    "guid": "33:30340",
+                                    "name": "画板 36",
+                                    "componentName": "div",
+                                    "props": {
+                                        "className": "page-box-50 width-all flex flex-start-center"
+                                    },
+                                    "comment": "",
+                                    "children": [{
+                                            "guid": "33:30341",
+                                            "name": "Tag",
+                                            "componentName": "div",
+                                            "props": {
+                                                "className": "page-box-51-1 flex"
+                                            },
+                                            "comment": "",
+                                            "children": [{
+                                                    "guid": "34:25528",
+                                                    "name": "状态点",
+                                                    "componentName": "div",
+                                                    "props": {
+                                                        "className": "static-52 icon-size-8"
+                                                    },
+                                                    "comment": "",
+                                                    "children": [],
+                                                    "scriptCode": []
+                                                },
+                                                {
+                                                    "guid": "34:25529",
+                                                    "name": "四级未修复漏洞",
+                                                    "componentName": "span",
+                                                    "props": {
+                                                        "className": "text-53 text-single"
+                                                    },
+                                                    "comment": "",
+                                                    "children": "四级未修复漏洞",
+                                                    "scriptCode": []
+                                                }
+                                            ],
+                                            "scriptCode": []
+                                        },
+                                        {
+                                            "guid": "33:30342",
+                                            "name": "21,267",
+                                            "componentName": "span",
+                                            "props": {
+                                                "className": "text-54 text-single"
+                                            },
+                                            "comment": "",
+                                            "children": "21,267",
+                                            "scriptCode": []
+                                        }
+                                    ],
+                                    "scriptCode": []
+                                }
+                            ],
+                            "scriptCode": []
+                        }],
+                        "scriptCode": []
+                    },
+                    {
+                        "guid": "33:30321-3-box",
+                        "name": "box",
+                        "componentName": "div",
+                        "props": {
+                            "className": "layout-h-55 absolute z-index-2 flex"
+                        },
+                        "comment": "",
+                        "children": [{
+                                "guid": "33:30321",
+                                "name": "通知",
+                                "componentName": "span",
+                                "props": {
+                                    "className": "text-56 text-single"
+                                },
+                                "comment": "",
+                                "children": "通知",
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "34:26302",
+                                "name": "mobile-circulate material-light-circle-48",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "page-box-57-1 relative flex"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "34:26303",
+                                        "name": "path1",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "static-58"
+                                        },
+                                        "comment": "",
+                                        "children": [],
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "34:26306",
+                                        "name": "流转",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "icon-59 absolute"
+                                        },
+                                        "comment": "",
+                                        "children": [],
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "33:30322",
+                                "name": "开发服务",
+                                "componentName": "span",
+                                "props": {
+                                    "className": "text-60 text-single absolute z-index-2"
+                                },
+                                "comment": "",
+                                "children": "开发服务",
+                                "scriptCode": []
+                            }
+                        ],
+                        "scriptCode": []
+                    }
+                ],
+                "scriptCode": []
+            },
+            {
+                "guid": "34:25419",
+                "name": "矩形 23",
+                "componentName": "div",
+                "props": {
+                    "className": "page-background"
+                },
+                "comment": "",
+                "children": [],
+                "scriptCode": []
+            }
+        ],
+        "scriptCode": []
+    }],
+    "scriptCode": [],
+    "iconsMap": [],
+    "css": ".Page { height: 49.5rem; };\n.page-box { width: 22.5rem;background-color: rgba(243, 243, 243, 1);align-items: flex-start;padding: 0 0 0.625rem 0; };\n.page-box-0-1 { padding: 0.5rem 1.5rem; };\n.text { font-size: 0.938rem;color: rgba(0, 0, 0, 1);line-height: 1.25rem;font-weight: 500; };\n.static { width: 6rem;height: 0.813rem;background: url(/34_26227.svg) no-repeat;background-size: 100%; };\n.page-box-1-1 { align-items: center;padding: 0.375rem 0 0.375rem 1rem;margin: 0 0 0.5rem 0; };\n.page-box-2 { align-items: center;padding: 0 1rem 0 0;margin: 0 3.688rem 0 0; };\n.icon { background: url(/34_26654.svg) no-repeat;background-size: 100%;margin: 0 1rem 0 0; };\n.icon-3-1 { background: url(/34_26656.svg) no-repeat;background-size: 100%; };\n.text-4 { font-size: 1.063rem;color: rgba(25, 25, 25, 1);line-height: 1.5rem;font-weight: normal;margin: 0 3.875rem 0 0; };\n.static-5-1 { background: url(/34_26679.svg) no-repeat;background-size: 100%;align-items: center;padding: 0 0.5rem 0 0.25rem; };\n.icon-6-1 { background: url(/34_26682.svg) no-repeat;background-size: 100%;margin: 0 0.5rem 0 0; };\n.icon-7-1 { background: url(/34_26807.svg) no-repeat;background-size: 100%; };\n.layout-h { align-items: center;margin: 0 0 0.75rem 1rem; };\n.section { width: 9.875rem;height: 7.75rem;border-radius: 1.25rem;background-color: rgba(255, 255, 255, 1);align-items: flex-start;padding: 0.75rem 0 0.75rem 1rem;margin: 0 0.75rem 0 0; };\n.icon-8-1 { background: url(/33_30296.svg) no-repeat;background-size: 100%;margin: 0 0 0.5rem 0; };\n.section-box { width: 5.25rem;border-radius: 0.25rem;align-items: flex-start; };\n.text-9 { font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 1.5rem;font-weight: bold; };\n.text-10 { font-size: 0.75rem;color: rgba(25, 25, 25, 1);line-height: 1.25rem;font-weight: normal; };\n.static-11 { width: 9.875rem;height: 7.75rem;border-radius: 1.25rem;background: url(/33_30300.svg) no-repeat;background-size: 100%;align-items: flex-end;padding: 0 2.875rem 0.75rem 1rem; };\n.page-box-12 { width: 6rem;border-radius: 0.25rem;align-items: flex-start; };\n.text-13 { font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 1.5rem;font-weight: bold; };\n.text-14 { font-size: 0.75rem;color: rgba(25, 25, 25, 1);line-height: 1.25rem;font-weight: normal; };\n.page-box-15 { align-items: flex-start;padding: 0 0 3.625rem 0;margin: 0 0 10.625rem 1rem; };\n.layout-h-16 { align-items: center;margin: 0 0 1.5rem 0; };\n.section-17 { width: 9.875rem;height: 4.5rem;border-radius: 1.25rem;background-color: rgba(255, 255, 255, 1);align-items: center;padding: 0.75rem;margin: 0 0.75rem 0 0; };\n.icon-18-1 { background: url(/33_30308.svg) no-repeat;background-size: 100%;margin: 0 0.5rem 0 0; };\n.section-box-19 { width: 4.875rem;border-radius: 0.25rem;align-items: flex-start;padding: 0 1.375rem 0 0; };\n.text-20 { font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 1.375rem;font-weight: bold; };\n.text-21 { font-size: 0.875rem;color: rgba(119, 119, 119, 1);line-height: 1.375rem;font-weight: normal; };\n.section-22 { width: 9.875rem;height: 4.5rem;border-radius: 1.25rem;background-color: rgba(255, 255, 255, 1);align-items: center;padding: 0.75rem; };\n.icon-23-1 { background: url(/33_30313.svg) no-repeat;background-size: 100%;margin: 0 0.5rem 0 0; };\n.section-box-24 { width: 4.875rem;border-radius: 0.25rem;align-items: flex-start;padding: 0 1.375rem 0 0; };\n.text-25 { font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 1.375rem;font-weight: bold; };\n.text-26 { font-size: 0.875rem;color: rgba(119, 119, 119, 1);line-height: 1.375rem;font-weight: normal; };\n.layout-h-27 { width: 19rem;margin: 0 0 1.5rem 0.75rem; };\n.icon-28-1 { background: url(/33_30319.svg) no-repeat;background-size: 100%; };\n.page-box-29 { width: 4.875rem;border-radius: 0.25rem;align-items: flex-start;padding: 0 0.5rem 0 0; };\n.text-30 { font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 1.375rem;font-weight: bold; };\n.text-31 { font-size: 0.875rem;color: rgba(119, 119, 119, 1);line-height: 1.375rem;font-weight: normal; };\n.page-box-32 { height: 9.75rem;border-radius: 1.25rem;background-color: rgba(255, 255, 255, 1);padding: 0 0.75rem; };\n.page-box-33 { width: 19rem;border-radius: 1rem;align-items: flex-start;padding: 3.125rem 0 0 0; };\n.text-34 { font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 1.5rem;font-weight: bold;margin: 0 0 0.438rem 0; };\n.page-box-35 { margin: 0 0 0.25rem 0; };\n.page-box-36-1 { align-items: center;margin: 0 0.5rem 0 0; };\n.static-37 { background: url(/34_25526.svg) no-repeat;background-size: 100%;margin: 0 0.25rem 0 0; };\n.text-38 { font-size: 0.75rem;color: rgba(25, 25, 25, 1);line-height: 1.25rem;font-weight: normal; };\n.text-39 { font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 1.375rem;font-weight: 500; };\n.page-box-40 { margin: 0 0 0.25rem 0; };\n.page-box-41-1 { align-items: center;margin: 0 0.5rem 0 0; };\n.static-42 { background: url(/34_25318.svg) no-repeat;background-size: 100%;margin: 0 0.25rem 0 0; };\n.text-43 { font-size: 0.75rem;color: rgba(25, 25, 25, 1);line-height: 1.25rem;font-weight: normal; };\n.text-44 { font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 1.375rem;font-weight: 500; };\n.page-box-45 { margin: 0 0 0.25rem 0; };\n.page-box-46-1 { align-items: center;margin: 0 0.5rem 0 0; };\n.static-47 { background: url(/34_25329.svg) no-repeat;background-size: 100%;margin: 0 0.25rem 0 0; };\n.text-48 { font-size: 0.75rem;color: rgba(25, 25, 25, 1);line-height: 1.25rem;font-weight: normal; };\n.text-49 { font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 1.375rem;font-weight: 500; };\n.page-box-51-1 { align-items: center;margin: 0 0.5rem 0 0; };\n.static-52 { background: url(/34_25528.svg) no-repeat;background-size: 100%;margin: 0 0.25rem 0 0; };\n.text-53 { font-size: 0.75rem;color: rgba(25, 25, 25, 1);line-height: 1.25rem;font-weight: normal; };\n.text-54 { font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 1.375rem;font-weight: 500; };\n.layout-h-55 { width: 10.125rem;height: 3rem;top: 6rem;left: 4.25rem;justify-content: space-between;align-items: flex-start; };\n.text-56 { font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 1.375rem;font-weight: bold;margin: 0.125rem 0 0 0; };\n.page-box-57-1 { width: 3rem;background: url(/34_26304.svg) no-repeat;background-size: 100%;align-self: center;padding: 1px 0 0 1px; };\n.static-58 { width: 2.938rem;height: 2.938rem;background: url(/34_26303.svg) no-repeat;background-size: 100%; };\n.icon-59 { width: 1.5rem;height: 1.375rem;background: url(/34_26306.svg) no-repeat;background-size: 100%;left: 0.813rem;top: 0.813rem;z-index: 1; };\n.text-60 { font-size: 0.875rem;color: rgba(119, 119, 119, 1);line-height: 1.375rem;top: 1.5rem;left: 0rem;font-weight: normal; };\n.page-background { width: 6.75rem;height: 0.375rem;border-radius: 0.188rem;background-color: rgba(174, 174, 174, 1);align-self: center; }",
+    "state": {},
+    "methods": {},
+    "dependencies": [],
+    "fileName": "HomePage"
+}]

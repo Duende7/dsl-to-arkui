@@ -1,0 +1,1311 @@
+[{
+    "guid": "page",
+    "name": "Page",
+    "componentName": "Page",
+    "props": {
+        "className": "width-all Page"
+    },
+    "comment": "",
+    "children": [{
+        "guid": "34:42319",
+        "name": "评测集12",
+        "componentName": "div",
+        "props": {
+            "className": "page-box relative flex"
+        },
+        "comment": "",
+        "children": [{
+                "guid": "content",
+                "componentName": "div",
+                "props": {
+                    "className": "content width-all relative flex-column"
+                },
+                "comment": "",
+                "children": [{
+                        "guid": "34:42320",
+                        "name": "Header",
+                        "componentName": "div",
+                        "props": {
+                            "className": "content-box-1 width-all flex-column"
+                        },
+                        "comment": "",
+                        "children": [{
+                                "guid": "34:51200",
+                                "name": "1.StatusBar",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "content-box-0-1 width-all flex flex-between-center"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "34:51201",
+                                        "name": "08:08",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text text-single"
+                                        },
+                                        "comment": "",
+                                        "children": "08:08",
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "34:51202",
+                                        "name": "画板 1",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "static"
+                                        },
+                                        "comment": "",
+                                        "children": [],
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "34:51259",
+                                "name": "Pagetitle",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "content-box-1-1 width-all flex"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "34:51260",
+                                        "name": "left",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "content-box-2 flex"
+                                        },
+                                        "comment": "",
+                                        "children": [{
+                                                "guid": "34:51261",
+                                                "name": "18图标/02导航栏/公共/返回箭头",
+                                                "componentName": "div",
+                                                "props": {
+                                                    "className": "icon icon-size-24"
+                                                },
+                                                "comment": "",
+                                                "children": [],
+                                                "scriptCode": []
+                                            },
+                                            {
+                                                "guid": "34:51263",
+                                                "name": "ihelp_icon",
+                                                "componentName": "div",
+                                                "props": {
+                                                    "className": "icon-3-1 icon-size-24"
+                                                },
+                                                "comment": "",
+                                                "children": [],
+                                                "scriptCode": []
+                                            }
+                                        ],
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "34:51282",
+                                        "name": "新建",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-4 text-single"
+                                        },
+                                        "comment": "",
+                                        "children": "新建",
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "34:51286",
+                                        "name": "导航栏/胶囊 copy",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "static-5-1 flex"
+                                        },
+                                        "comment": "",
+                                        "children": [{
+                                                "guid": "34:51289",
+                                                "name": "icon更多 copy",
+                                                "componentName": "div",
+                                                "props": {
+                                                    "className": "icon-6-1 icon-size-32"
+                                                },
+                                                "comment": "",
+                                                "children": [],
+                                                "scriptCode": []
+                                            },
+                                            {
+                                                "guid": "34:51414",
+                                                "name": "icon关闭 copy",
+                                                "componentName": "div",
+                                                "props": {
+                                                    "className": "icon-7-1 icon-size-32"
+                                                },
+                                                "comment": "",
+                                                "children": [],
+                                                "scriptCode": []
+                                            }
+                                        ],
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            }
+                        ],
+                        "scriptCode": []
+                    },
+                    {
+                        "guid": "34:42321",
+                        "name": "body",
+                        "componentName": "div",
+                        "props": {
+                            "className": "content-box-8 width-all flex-column"
+                        },
+                        "comment": "",
+                        "children": [{
+                                "guid": "34:42322",
+                                "name": "ButtonList",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "content-box-9-1 width-all flex"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "34:44553",
+                                        "name": "页签1",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "content-div-span"
+                                        },
+                                        "comment": "",
+                                        "children": "日程",
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "34:44555",
+                                        "name": "页签2",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "content-div-span-10"
+                                        },
+                                        "comment": "",
+                                        "children": "重要日",
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "34:44557",
+                                        "name": "页签3",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "content-div-span-11"
+                                        },
+                                        "comment": "",
+                                        "children": "页签3",
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "34:44559",
+                                        "name": "页签4",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "content-div-span-12"
+                                        },
+                                        "comment": "",
+                                        "children": "页签4",
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "34:42323",
+                                "name": "Card",
+                                "componentName": "section",
+                                "props": {
+                                    "className": "section width-all flex-column"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "34:42324",
+                                        "name": "Form",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "section-box-1 width-all flex-column"
+                                        },
+                                        "comment": "",
+                                        "children": [{
+                                                "guid": "34:51454",
+                                                "name": "Frame",
+                                                "componentName": "div",
+                                                "props": {
+                                                    "className": "section-box-13 width-all flex flex-between-center"
+                                                },
+                                                "comment": "",
+                                                "children": [{
+                                                        "guid": "34:51455",
+                                                        "name": "FrameLabel",
+                                                        "componentName": "div",
+                                                        "props": {
+                                                            "className": "section-box-14 flex flex-start-center"
+                                                        },
+                                                        "comment": "",
+                                                        "children": [{
+                                                                "guid": "34:51456",
+                                                                "name": "required",
+                                                                "componentName": "div",
+                                                                "props": {
+                                                                    "className": "static-15"
+                                                                },
+                                                                "comment": "",
+                                                                "children": [],
+                                                                "scriptCode": []
+                                                            },
+                                                            {
+                                                                "guid": "34:51459",
+                                                                "name": "label",
+                                                                "componentName": "span",
+                                                                "props": {
+                                                                    "className": "text-16 text-single"
+                                                                },
+                                                                "comment": "",
+                                                                "children": "标题",
+                                                                "scriptCode": []
+                                                            }
+                                                        ],
+                                                        "scriptCode": []
+                                                    },
+                                                    {
+                                                        "guid": "34:51473",
+                                                        "name": "请输入标题",
+                                                        "componentName": "span",
+                                                        "props": {
+                                                            "className": "text-17 text-single"
+                                                        },
+                                                        "comment": "",
+                                                        "children": "请输入标题",
+                                                        "scriptCode": []
+                                                    }
+                                                ],
+                                                "scriptCode": []
+                                            },
+                                            {
+                                                "guid": "34:51489",
+                                                "name": "Frame",
+                                                "componentName": "div",
+                                                "props": {
+                                                    "className": "section-box-18 width-all flex flex-between-center"
+                                                },
+                                                "comment": "",
+                                                "children": [{
+                                                        "guid": "34:51494",
+                                                        "name": "label",
+                                                        "componentName": "span",
+                                                        "props": {
+                                                            "className": "text-19 text-single"
+                                                        },
+                                                        "comment": "",
+                                                        "children": "日程描述",
+                                                        "scriptCode": []
+                                                    },
+                                                    {
+                                                        "guid": "34:51508",
+                                                        "name": "请输入日程描述",
+                                                        "componentName": "span",
+                                                        "props": {
+                                                            "className": "text-20 text-single"
+                                                        },
+                                                        "comment": "",
+                                                        "children": "请输入日程描述",
+                                                        "scriptCode": []
+                                                    }
+                                                ],
+                                                "scriptCode": []
+                                            },
+                                            {
+                                                "guid": "34:51524",
+                                                "name": "Frame",
+                                                "componentName": "div",
+                                                "props": {
+                                                    "className": "section-box-21 width-all flex flex-between-center"
+                                                },
+                                                "comment": "",
+                                                "children": [{
+                                                        "guid": "34:51525",
+                                                        "name": "FrameLabel",
+                                                        "componentName": "div",
+                                                        "props": {
+                                                            "className": "section-box-22 flex flex-start-center"
+                                                        },
+                                                        "comment": "",
+                                                        "children": [{
+                                                                "guid": "34:51526",
+                                                                "name": "required",
+                                                                "componentName": "div",
+                                                                "props": {
+                                                                    "className": "static-23"
+                                                                },
+                                                                "comment": "",
+                                                                "children": [],
+                                                                "scriptCode": []
+                                                            },
+                                                            {
+                                                                "guid": "34:51529",
+                                                                "name": "label",
+                                                                "componentName": "span",
+                                                                "props": {
+                                                                    "className": "text-24 text-single"
+                                                                },
+                                                                "comment": "",
+                                                                "children": "全日",
+                                                                "scriptCode": []
+                                                            }
+                                                        ],
+                                                        "scriptCode": []
+                                                    },
+                                                    {
+                                                        "guid": "34:51543",
+                                                        "name": "请输入",
+                                                        "componentName": "span",
+                                                        "props": {
+                                                            "className": "text-25 text-single"
+                                                        },
+                                                        "comment": "",
+                                                        "children": "请输入",
+                                                        "scriptCode": []
+                                                    }
+                                                ],
+                                                "scriptCode": []
+                                            },
+                                            {
+                                                "guid": "34:51559",
+                                                "name": "Frame",
+                                                "componentName": "div",
+                                                "props": {
+                                                    "className": "section-box-26 width-all flex flex-between-center"
+                                                },
+                                                "comment": "",
+                                                "children": [{
+                                                        "guid": "34:51560",
+                                                        "name": "FrameLabel",
+                                                        "componentName": "div",
+                                                        "props": {
+                                                            "className": "section-box-27 flex"
+                                                        },
+                                                        "comment": "",
+                                                        "children": [{
+                                                                "guid": "34:51561",
+                                                                "name": "required",
+                                                                "componentName": "div",
+                                                                "props": {
+                                                                    "className": "static-28"
+                                                                },
+                                                                "comment": "",
+                                                                "children": [],
+                                                                "scriptCode": []
+                                                            },
+                                                            {
+                                                                "guid": "34:51564",
+                                                                "name": "label",
+                                                                "componentName": "span",
+                                                                "props": {
+                                                                    "className": "text-29 text-single"
+                                                                },
+                                                                "comment": "",
+                                                                "children": "开始时间",
+                                                                "scriptCode": []
+                                                            }
+                                                        ],
+                                                        "scriptCode": []
+                                                    },
+                                                    {
+                                                        "guid": "34:51578",
+                                                        "name": "请输入",
+                                                        "componentName": "span",
+                                                        "props": {
+                                                            "className": "text-30 text-single"
+                                                        },
+                                                        "comment": "",
+                                                        "children": "请输入",
+                                                        "scriptCode": []
+                                                    }
+                                                ],
+                                                "scriptCode": []
+                                            },
+                                            {
+                                                "guid": "34:51594",
+                                                "name": "Frame",
+                                                "componentName": "div",
+                                                "props": {
+                                                    "className": "section-box-31 width-all flex flex-between-center"
+                                                },
+                                                "comment": "",
+                                                "children": [{
+                                                        "guid": "34:51595",
+                                                        "name": "FrameLabel",
+                                                        "componentName": "div",
+                                                        "props": {
+                                                            "className": "section-box-32 flex"
+                                                        },
+                                                        "comment": "",
+                                                        "children": [{
+                                                                "guid": "34:51596",
+                                                                "name": "required",
+                                                                "componentName": "div",
+                                                                "props": {
+                                                                    "className": "static-33"
+                                                                },
+                                                                "comment": "",
+                                                                "children": [],
+                                                                "scriptCode": []
+                                                            },
+                                                            {
+                                                                "guid": "34:51599",
+                                                                "name": "label",
+                                                                "componentName": "span",
+                                                                "props": {
+                                                                    "className": "text-34 text-single"
+                                                                },
+                                                                "comment": "",
+                                                                "children": "结束时间",
+                                                                "scriptCode": []
+                                                            }
+                                                        ],
+                                                        "scriptCode": []
+                                                    },
+                                                    {
+                                                        "guid": "34:51613",
+                                                        "name": "请输入",
+                                                        "componentName": "span",
+                                                        "props": {
+                                                            "className": "text-35 text-single"
+                                                        },
+                                                        "comment": "",
+                                                        "children": "请输入",
+                                                        "scriptCode": []
+                                                    }
+                                                ],
+                                                "scriptCode": []
+                                            }
+                                        ],
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "34:42325",
+                                        "name": "Calendar",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "section-box-36-1 width-all flex-column"
+                                        },
+                                        "comment": "",
+                                        "children": [{
+                                                "guid": "34:48994",
+                                                "name": "wrapper",
+                                                "componentName": "div",
+                                                "props": {
+                                                    "className": "section-box-37 width-all flex-column"
+                                                },
+                                                "comment": "",
+                                                "children": [{
+                                                        "guid": "34:48995",
+                                                        "name": "calendar__handle",
+                                                        "componentName": "div",
+                                                        "props": {
+                                                            "className": "section-box-38-1 width-all flex"
+                                                        },
+                                                        "comment": "",
+                                                        "children": [{
+                                                                "guid": "34:48996",
+                                                                "name": "left",
+                                                                "componentName": "div",
+                                                                "props": {
+                                                                    "className": "section-box-39 flex"
+                                                                },
+                                                                "comment": "",
+                                                                "children": [{
+                                                                        "guid": "34:48997",
+                                                                        "name": "handle_icon--prev_year",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "icon-40 icon-size-24"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": [],
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49000",
+                                                                        "name": "handle_icon--prev_month",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "icon-41 icon-size-24"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": [],
+                                                                        "scriptCode": []
+                                                                    }
+                                                                ],
+                                                                "scriptCode": []
+                                                            },
+                                                            {
+                                                                "guid": "34:49003",
+                                                                "name": "2025年9月",
+                                                                "componentName": "span",
+                                                                "props": {
+                                                                    "className": "text-42 text-single"
+                                                                },
+                                                                "comment": "",
+                                                                "children": "2025年9月",
+                                                                "scriptCode": []
+                                                            },
+                                                            {
+                                                                "guid": "34:49004",
+                                                                "name": "right",
+                                                                "componentName": "div",
+                                                                "props": {
+                                                                    "className": "section-box-43 flex"
+                                                                },
+                                                                "comment": "",
+                                                                "children": [{
+                                                                        "guid": "34:49005",
+                                                                        "name": "handle_icon--next_month",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "icon-44 icon-size-24"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": [],
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49008",
+                                                                        "name": "handle_icon--next_year",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "icon-45 icon-size-24"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": [],
+                                                                        "scriptCode": []
+                                                                    }
+                                                                ],
+                                                                "scriptCode": []
+                                                            }
+                                                        ],
+                                                        "scriptCode": []
+                                                    },
+                                                    {
+                                                        "guid": "34:49011",
+                                                        "name": "body",
+                                                        "componentName": "div",
+                                                        "props": {
+                                                            "className": "section-box-46 width-all flex-column"
+                                                        },
+                                                        "comment": "",
+                                                        "children": [{
+                                                                "guid": "34:49012",
+                                                                "name": "header",
+                                                                "componentName": "div",
+                                                                "props": {
+                                                                    "className": "section-box-47 width-all flex"
+                                                                },
+                                                                "comment": "",
+                                                                "children": [{
+                                                                        "guid": "34:49013",
+                                                                        "name": "画板 46",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "日",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49015",
+                                                                        "name": "画板 54",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-48 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "一",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49017",
+                                                                        "name": "画板 55",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-49 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "二",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49019",
+                                                                        "name": "画板 56",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-50 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "三",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49021",
+                                                                        "name": "画板 57",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-51 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "四",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49023",
+                                                                        "name": "画板 58",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-52 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "五",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49025",
+                                                                        "name": "画板 59",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-53 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "六",
+                                                                        "scriptCode": []
+                                                                    }
+                                                                ],
+                                                                "scriptCode": []
+                                                            },
+                                                            {
+                                                                "guid": "34:49027",
+                                                                "name": "tr",
+                                                                "componentName": "div",
+                                                                "props": {
+                                                                    "className": "section-box-54 width-all flex"
+                                                                },
+                                                                "comment": "",
+                                                                "children": [{
+                                                                        "guid": "34:49028",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-55-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "26",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49030",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-56-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "27",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49032",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-57-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "28",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49034",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-58-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "29",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49036",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-59-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "30",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49038",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-60-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "1",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49040",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-61-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "2",
+                                                                        "scriptCode": []
+                                                                    }
+                                                                ],
+                                                                "scriptCode": []
+                                                            },
+                                                            {
+                                                                "guid": "34:49042",
+                                                                "name": "tr",
+                                                                "componentName": "div",
+                                                                "props": {
+                                                                    "className": "section-box-62 width-all flex"
+                                                                },
+                                                                "comment": "",
+                                                                "children": [{
+                                                                        "guid": "34:49043",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-63-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "3",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49045",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-64-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "4",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49047",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-65-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "5",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49049",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-66-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "6",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49051",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-67-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "7",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49053",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-68-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "8",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49055",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-69-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "9",
+                                                                        "scriptCode": []
+                                                                    }
+                                                                ],
+                                                                "scriptCode": []
+                                                            },
+                                                            {
+                                                                "guid": "34:49057",
+                                                                "name": "tr",
+                                                                "componentName": "div",
+                                                                "props": {
+                                                                    "className": "section-box-70 width-all flex"
+                                                                },
+                                                                "comment": "",
+                                                                "children": [{
+                                                                        "guid": "34:49058",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-71-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "10",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49060",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-72-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "11",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49062",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-73-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "12",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49064",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-74-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "13",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49066",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-75-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "14",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49068",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-76-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "15",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49070",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-77-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "16",
+                                                                        "scriptCode": []
+                                                                    }
+                                                                ],
+                                                                "scriptCode": []
+                                                            },
+                                                            {
+                                                                "guid": "34:49072",
+                                                                "name": "tr",
+                                                                "componentName": "div",
+                                                                "props": {
+                                                                    "className": "section-box-78 width-all flex"
+                                                                },
+                                                                "comment": "",
+                                                                "children": [{
+                                                                        "guid": "34:49073",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-79-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "17",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49075",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-80-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "18",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49077",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-81-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "19",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49079",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-82-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "20",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49081",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-83-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "21",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49083",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-84-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "22",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49085",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-85-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "23",
+                                                                        "scriptCode": []
+                                                                    }
+                                                                ],
+                                                                "scriptCode": []
+                                                            },
+                                                            {
+                                                                "guid": "34:49087",
+                                                                "name": "tr",
+                                                                "componentName": "div",
+                                                                "props": {
+                                                                    "className": "section-box-86 width-all flex"
+                                                                },
+                                                                "comment": "",
+                                                                "children": [{
+                                                                        "guid": "34:49088",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-87-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "24",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49090",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-88-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "25",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49092",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-89-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "26",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49094",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-90-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "27",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49096",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-91-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "28",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49098",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-92-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "29",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49100",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-93-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "30",
+                                                                        "scriptCode": []
+                                                                    }
+                                                                ],
+                                                                "scriptCode": []
+                                                            },
+                                                            {
+                                                                "guid": "34:49102",
+                                                                "name": "tr",
+                                                                "componentName": "div",
+                                                                "props": {
+                                                                    "className": "section-box-94 width-all flex"
+                                                                },
+                                                                "comment": "",
+                                                                "children": [{
+                                                                        "guid": "34:49103",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-95-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "31",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49105",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-96-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "1",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49107",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-97-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "2",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49109",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-98-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "3",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49111",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-99-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "4",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49113",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-100-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "5",
+                                                                        "scriptCode": []
+                                                                    },
+                                                                    {
+                                                                        "guid": "34:49115",
+                                                                        "name": "默认日期",
+                                                                        "componentName": "div",
+                                                                        "props": {
+                                                                            "className": "section-div-span-101-1 icon-size-32"
+                                                                        },
+                                                                        "comment": "",
+                                                                        "children": "6",
+                                                                        "scriptCode": []
+                                                                    }
+                                                                ],
+                                                                "scriptCode": []
+                                                            }
+                                                        ],
+                                                        "scriptCode": []
+                                                    }
+                                                ],
+                                                "scriptCode": []
+                                            },
+                                            {
+                                                "guid": "34:49117",
+                                                "name": "confirm_footer",
+                                                "componentName": "div",
+                                                "props": {
+                                                    "className": "section-box-102-1 flex"
+                                                },
+                                                "comment": "",
+                                                "children": [{
+                                                        "guid": "34:49118",
+                                                        "name": "Button",
+                                                        "componentName": "div",
+                                                        "props": {
+                                                            "className": "section-div-span-103-1"
+                                                        },
+                                                        "comment": "",
+                                                        "children": "取消",
+                                                        "scriptCode": []
+                                                    },
+                                                    {
+                                                        "guid": "line_4",
+                                                        "name": "Divider",
+                                                        "componentName": "div",
+                                                        "props": {
+                                                            "className": "line"
+                                                        },
+                                                        "comment": "",
+                                                        "children": [],
+                                                        "scriptCode": []
+                                                    },
+                                                    {
+                                                        "guid": "34:49123",
+                                                        "name": "Button",
+                                                        "componentName": "div",
+                                                        "props": {
+                                                            "className": "section-div-span-104-1"
+                                                        },
+                                                        "comment": "",
+                                                        "children": "确定",
+                                                        "scriptCode": []
+                                                    }
+                                                ],
+                                                "scriptCode": []
+                                            }
+                                        ],
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            }
+                        ],
+                        "scriptCode": []
+                    }
+                ],
+                "scriptCode": []
+            },
+            {
+                "guid": "page-bg",
+                "componentName": "div",
+                "props": {
+                    "className": "bg absolute z-index-2 absolute-top-left"
+                },
+                "comment": "",
+                "children": [{
+                    "guid": "34:44579",
+                    "name": "矩形 23",
+                    "componentName": "div",
+                    "props": {
+                        "className": "bg-background absolute"
+                    },
+                    "comment": "",
+                    "children": [],
+                    "scriptCode": []
+                }],
+                "scriptCode": []
+            }
+        ],
+        "scriptCode": []
+    }],
+    "scriptCode": [],
+    "iconsMap": [],
+    "css": ".Page { height: 52.875rem; };\n.page-box { width: 22.5rem;background-color: rgba(243, 243, 243, 1); };\n.content { z-index: 2;align-items: flex-start;padding: 0 0 1.75rem 0; };\n.content-box-1 { align-items: flex-start; };\n.content-box-0-1 { padding: 0.5rem 1.5rem; };\n.text { font-size: 0.938rem;color: rgba(0, 0, 0, 1);line-height: 1.25rem;font-weight: 500; };\n.static { width: 6rem;height: 0.813rem;background: url(/34_51202.svg) no-repeat;background-size: 100%; };\n.content-box-1-1 { align-items: center;padding: 0.375rem 0 0.375rem 1rem; };\n.content-box-2 { align-items: center;padding: 0 1rem 0 0;margin: 0 4.188rem 0 0; };\n.icon { background: url(/34_51261.svg) no-repeat;background-size: 100%;margin: 0 1rem 0 0; };\n.icon-3-1 { background: url(/34_51263.svg) no-repeat;background-size: 100%; };\n.text-4 { font-size: 1.063rem;color: rgba(25, 25, 25, 1);line-height: 1.5rem;font-weight: normal;margin: 0 4.438rem 0 0; };\n.static-5-1 { background: url(/34_51286.svg) no-repeat;background-size: 100%;align-items: center;padding: 0 0.5rem 0 0.25rem; };\n.icon-6-1 { background: url(/34_51289.svg) no-repeat;background-size: 100%;margin: 0 0.5rem 0 0; };\n.icon-7-1 { background: url(/34_51414.svg) no-repeat;background-size: 100%; };\n.content-box-8 { align-items: flex-start;padding: 0.5rem 1rem 0.75rem 1rem; };\n.content-box-9-1 { border-radius: 1.25rem;background-color: rgba(25, 25, 25, 0.05);align-items: center;padding: 0.125rem 0 0.125rem 0.125rem;margin: 0 0 0.75rem 0; };\n.content-div-span { width: 5.063rem;box-shadow: 0 1px 0.375rem 0 rgba(0, 0, 0, 0.08);height: 2.25rem;border-radius: 1.25rem;background-color: rgba(255, 255, 255, 1);font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 2.25rem;text-align: center; };\n.content-div-span-10 { width: 5.063rem;box-shadow: 0 1px 0.375rem 0 rgba(0, 0, 0, 0.08);height: 2.25rem;border-radius: 1.25rem;font-size: 0.875rem;color: rgba(119, 119, 119, 1);line-height: 2.25rem;text-align: center; };\n.content-div-span-11 { width: 5.063rem;box-shadow: 0 1px 0.375rem 0 rgba(0, 0, 0, 0.08);height: 2.25rem;border-radius: 1.25rem;font-size: 0.875rem;color: rgba(119, 119, 119, 1);line-height: 2.25rem;text-align: center; };\n.content-div-span-12 { width: 5.063rem;box-shadow: 0 1px 0.375rem 0 rgba(0, 0, 0, 0.08);height: 2.25rem;border-radius: 1.25rem;font-size: 0.875rem;color: rgba(119, 119, 119, 1);line-height: 2.25rem;text-align: center; };\n.section { border-radius: 1rem;background-color: rgba(255, 255, 255, 1);align-items: flex-start;padding: 0.25rem 0.75rem 1.5rem 0.75rem; };\n.section-box-1 { align-items: flex-start; };\n.section-box-13 { border-bottom: 1px solid rgba(201, 201, 201, 1);padding: 0.75rem 0; };\n.section-box-14 { width: 6.25rem; };\n.static-15 { width: 0.5rem;height: 1.375rem;background: url(/34_51456.svg) no-repeat;background-size: 100%;margin: 0 0.25rem 0 0; };\n.text-16 { font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 1.375rem;font-weight: bold; };\n.text-17 { font-size: 0.875rem;color: rgba(174, 174, 174, 1);line-height: 1.375rem;font-weight: normal; };\n.section-box-18 { border-bottom: 1px solid rgba(201, 201, 201, 1);padding: 0.75rem 0; };\n.text-19 { font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 1.375rem;font-weight: bold; };\n.text-20 { font-size: 0.875rem;color: rgba(174, 174, 174, 1);line-height: 1.375rem;font-weight: normal; };\n.section-box-21 { border-bottom: 1px solid rgba(201, 201, 201, 1);padding: 0.75rem 0; };\n.section-box-22 { width: 6.25rem; };\n.static-23 { width: 0.5rem;height: 1.375rem;background: url(/34_51526.svg) no-repeat;background-size: 100%;margin: 0 0.25rem 0 0; };\n.text-24 { font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 1.375rem;font-weight: bold; };\n.text-25 { font-size: 0.875rem;color: rgba(174, 174, 174, 1);line-height: 1.375rem;font-weight: normal; };\n.section-box-26 { border-bottom: 1px solid rgba(201, 201, 201, 1);padding: 0.75rem 0; };\n.section-box-27 { align-items: center;padding: 0 2rem 0 0; };\n.static-28 { width: 0.5rem;height: 1.375rem;background: url(/34_51561.svg) no-repeat;background-size: 100%;margin: 0 0.25rem 0 0; };\n.text-29 { font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 1.375rem;font-weight: bold; };\n.text-30 { font-size: 0.875rem;color: rgba(174, 174, 174, 1);line-height: 1.375rem;font-weight: normal; };\n.section-box-31 { padding: 0.75rem 0; };\n.section-box-32 { align-items: center;padding: 0 2rem 0 0; };\n.static-33 { width: 0.5rem;height: 1.375rem;background: url(/34_51596.svg) no-repeat;background-size: 100%;margin: 0 0.25rem 0 0; };\n.text-34 { font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 1.375rem;font-weight: bold; };\n.text-35 { font-size: 0.875rem;color: rgba(174, 174, 174, 1);line-height: 1.375rem;font-weight: normal; };\n.section-box-36-1 { border-radius: 1.5rem;background-color: rgba(255, 255, 255, 1);align-items: flex-start;padding: 0.5rem 0 1rem 0; };\n.section-box-37 { align-items: flex-start;padding: 0 1.5rem 0.5rem 1.5rem; };\n.section-box-38-1 { align-items: center;padding: 0.875rem 0;margin: 0 0 0.5rem 0; };\n.section-box-39 { align-items: center;margin: 0 1.625rem 0 0; };\n.icon-40 { background: url(/34_48997.svg) no-repeat;background-size: 100%;margin: 0 0.25rem 0 0; };\n.icon-41 { background: url(/34_49000.svg) no-repeat;background-size: 100%; };\n.text-42 { font-size: 1.25rem;color: rgba(25, 25, 25, 1);line-height: 1.75rem;font-weight: bold;margin: 0 1.625rem 0 0; };\n.section-box-43 { align-items: center; };\n.icon-44 { background: url(/34_49005.svg) no-repeat;background-size: 100%;margin: 0 0.25rem 0 0; };\n.icon-45 { background: url(/34_49008.svg) no-repeat;background-size: 100%; };\n.section-box-46 { align-items: flex-start; };\n.section-box-47 { height: 2rem;gap: 0.25rem;align-items: stretch;padding: 0 0 0 0.25rem;margin: 0 0 0.5rem 0; };\n.section-div-span { font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-48 { font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-49 { font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-50 { font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-51 { font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-52 { font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-53 { font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-box-54 { height: 2rem;gap: 0.25rem;align-items: stretch;padding: 0 0 0 0.25rem;margin: 0 0 0.5rem 0; };\n.section-div-span-55-1 { border-radius: 1rem;font-size: 1rem;color: rgba(201, 201, 201, 1);line-height: 2rem;text-align: center; };\n.section-div-span-56-1 { border-radius: 1rem;font-size: 1rem;color: rgba(201, 201, 201, 1);line-height: 2rem;text-align: center; };\n.section-div-span-57-1 { border-radius: 1rem;font-size: 1rem;color: rgba(201, 201, 201, 1);line-height: 2rem;text-align: center; };\n.section-div-span-58-1 { border-radius: 1rem;font-size: 1rem;color: rgba(201, 201, 201, 1);line-height: 2rem;text-align: center; };\n.section-div-span-59-1 { border-radius: 1rem;font-size: 1rem;color: rgba(201, 201, 201, 1);line-height: 2rem;text-align: center; };\n.section-div-span-60-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-61-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-box-62 { height: 2rem;gap: 0.25rem;align-items: stretch;padding: 0 0 0 0.25rem;margin: 0 0 0.5rem 0; };\n.section-div-span-63-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-64-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-65-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-66-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-67-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-68-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-69-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-box-70 { height: 2rem;gap: 0.25rem;align-items: stretch;padding: 0 0 0 0.25rem;margin: 0 0 0.5rem 0; };\n.section-div-span-71-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-72-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-73-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-74-1 { border-radius: 1rem;font-size: 1rem;color: rgba(10, 89, 247, 1);line-height: 2rem;text-align: center; };\n.section-div-span-75-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-76-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-77-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-box-78 { height: 2rem;gap: 0.25rem;align-items: stretch;padding: 0 0 0 0.25rem;margin: 0 0 0.5rem 0; };\n.section-div-span-79-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-80-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-81-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-82-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-83-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-84-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-85-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-box-86 { height: 2rem;gap: 0.25rem;align-items: stretch;padding: 0 0 0 0.25rem;margin: 0 0 0.5rem 0; };\n.section-div-span-87-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-88-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-89-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-90-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-91-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-92-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-93-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-box-94 { height: 2rem;gap: 0.25rem;align-items: stretch;padding: 0 0 0 0.25rem; };\n.section-div-span-95-1 { border-radius: 1rem;font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 2rem;text-align: center; };\n.section-div-span-96-1 { border-radius: 1rem;font-size: 1rem;color: rgba(201, 201, 201, 1);line-height: 2rem;text-align: center; };\n.section-div-span-97-1 { border-radius: 1rem;font-size: 1rem;color: rgba(201, 201, 201, 1);line-height: 2rem;text-align: center; };\n.section-div-span-98-1 { border-radius: 1rem;font-size: 1rem;color: rgba(201, 201, 201, 1);line-height: 2rem;text-align: center; };\n.section-div-span-99-1 { border-radius: 1rem;font-size: 1rem;color: rgba(201, 201, 201, 1);line-height: 2rem;text-align: center; };\n.section-div-span-100-1 { border-radius: 1rem;font-size: 1rem;color: rgba(201, 201, 201, 1);line-height: 2rem;text-align: center; };\n.section-div-span-101-1 { border-radius: 1rem;font-size: 1rem;color: rgba(201, 201, 201, 1);line-height: 2rem;text-align: center; };\n.section-box-102-1 { width: calc(100% - -1.5rem);align-items: center;padding: 0 0 0 1rem;margin: 0 0 0 -0.75rem; };\n.section-div-span-103-1 { width: 9rem;height: 2.5rem;border-radius: 1.25rem;font-size: 1rem;color: rgba(10, 89, 247, 1);line-height: 2.5rem;text-align: center;margin: 0 0.25rem 0 0; };\n.line { height: 1.5rem;width: 1px;background-color: rgba(223, 223, 223, 1);margin: 0 0.188rem 0 0; };\n.section-div-span-104-1 { width: 9rem;height: 2.5rem;border-radius: 1.25rem;font-size: 1rem;color: rgba(10, 89, 247, 1);line-height: 2.5rem;text-align: center; };\n.bg-background { width: 6.75rem;height: 0.375rem;border-radius: 0.188rem;background-color: rgba(174, 174, 174, 1);left: 7.875rem;top: 51.875rem; }",
+    "state": {},
+    "methods": {},
+    "dependencies": [],
+    "fileName": "HomePage"
+}]

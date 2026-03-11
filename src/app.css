@@ -1,0 +1,156 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #0f1117;
+  color: #e2e8f0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 10px 24px;
+  background: #1a1d2e;
+  border-bottom: 1px solid #2d3048;
+  flex-shrink: 0;
+}
+
+.header h1 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #7dd3fc;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.examples {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.examples-label {
+  font-size: 12px;
+  color: #64748b;
+}
+
+.btn-example {
+  padding: 4px 12px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  gap: 1px;
+  background: #2d3048;
+  overflow: hidden;
+}
+
+.panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #0f1117;
+  overflow: hidden;
+}
+
+.panel-title {
+  padding: 8px 16px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #94a3b8;
+  background: #1a1d2e;
+  border-bottom: 1px solid #2d3048;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  flex-shrink: 0;
+}
+
+.editor {
+  flex: 1;
+  width: 100%;
+  padding: 16px;
+  background: #0f1117;
+  color: #e2e8f0;
+  border: none;
+  resize: none;
+  font-family: "JetBrains Mono", "Fira Code", "Cascadia Code", Consolas, monospace;
+  font-size: 13px;
+  line-height: 1.7;
+  outline: none;
+  tab-size: 2;
+}
+
+.editor.output {
+  color: #a5f3a0;
+}
+
+.editor::placeholder {
+  color: #475569;
+}
+
+.error {
+  padding: 10px 24px;
+  background: #2d1b1b;
+  color: #f87171;
+  font-size: 13px;
+  border-top: 1px solid #7f1d1d;
+  flex-shrink: 0;
+}
+
+.footer {
+  display: flex;
+  gap: 10px;
+  padding: 12px 24px;
+  background: #1a1d2e;
+  border-top: 1px solid #2d3048;
+  flex-shrink: 0;
+}
+
+.btn {
+  padding: 8px 20px;
+  border: 1px solid #3d4264;
+  border-radius: 6px;
+  background: #2d3048;
+  color: #e2e8f0;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.btn:hover:not(:disabled) {
+  background: #3d4264;
+  border-color: #5d6490;
+}
+
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background: #3b82f6;
+  border-color: #3b82f6;
+  color: #fff;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background: #2563eb !important;
+  border-color: #2563eb !important;
+}

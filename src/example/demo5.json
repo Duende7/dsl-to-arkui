@@ -1,0 +1,874 @@
+[{
+    "guid": "page",
+    "name": "Page",
+    "componentName": "Page",
+    "props": {
+        "className": "width-all Page"
+    },
+    "comment": "",
+    "children": [{
+        "guid": "33:40944",
+        "name": "评测集34",
+        "componentName": "div",
+        "props": {
+            "className": "page-box flex-column"
+        },
+        "comment": "",
+        "children": [{
+                "guid": "33:40945",
+                "name": "Header",
+                "componentName": "div",
+                "props": {
+                    "className": "page-box-0-1 width-all flex-column"
+                },
+                "comment": "",
+                "children": [{
+                        "guid": "34:7615",
+                        "name": "1.StatusBar",
+                        "componentName": "div",
+                        "props": {
+                            "className": "page-box-1-1 width-all flex flex-between-center"
+                        },
+                        "comment": "",
+                        "children": [{
+                                "guid": "34:7616",
+                                "name": "08:08",
+                                "componentName": "span",
+                                "props": {
+                                    "className": "text text-single"
+                                },
+                                "comment": "",
+                                "children": "08:08",
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "34:7617",
+                                "name": "画板 1",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "static"
+                                },
+                                "comment": "",
+                                "children": [],
+                                "scriptCode": []
+                            }
+                        ],
+                        "scriptCode": []
+                    },
+                    {
+                        "guid": "34:7674",
+                        "name": "Pagetitle",
+                        "componentName": "div",
+                        "props": {
+                            "className": "page-box-2-1 width-all flex"
+                        },
+                        "comment": "",
+                        "children": [{
+                                "guid": "34:7675",
+                                "name": "left",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "page-box-3 flex"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "34:7676",
+                                        "name": "18图标/02导航栏/公共/返回箭头",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "icon icon-size-24"
+                                        },
+                                        "comment": "",
+                                        "children": [],
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "34:7678",
+                                        "name": "ihelp_icon",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "icon-4-1 icon-size-24"
+                                        },
+                                        "comment": "",
+                                        "children": [],
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "34:7697",
+                                "name": "待办详情",
+                                "componentName": "span",
+                                "props": {
+                                    "className": "text-5 text-single"
+                                },
+                                "comment": "",
+                                "children": "待办详情",
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "34:7701",
+                                "name": "导航栏/胶囊 copy",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "static-6-1 flex"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "34:7704",
+                                        "name": "icon更多 copy",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "icon-7-1 icon-size-32"
+                                        },
+                                        "comment": "",
+                                        "children": [],
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "34:7829",
+                                        "name": "icon关闭 copy",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "icon-8-1 icon-size-32"
+                                        },
+                                        "comment": "",
+                                        "children": [],
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            }
+                        ],
+                        "scriptCode": []
+                    }
+                ],
+                "scriptCode": []
+            },
+            {
+                "guid": "33:40946",
+                "name": "body",
+                "componentName": "div",
+                "props": {
+                    "className": "page-box-9 width-all flex-column"
+                },
+                "comment": "",
+                "children": [{
+                        "guid": "33:40947",
+                        "name": "card1",
+                        "componentName": "div",
+                        "props": {
+                            "className": "page-box-10 width-all flex-column"
+                        },
+                        "comment": "",
+                        "children": [{
+                                "guid": "33:40948",
+                                "name": "RR num",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "page-box-11 flex"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "33:40949",
+                                        "name": "Tag",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "page-div-span-1"
+                                        },
+                                        "comment": "",
+                                        "children": "RR",
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "33:40950",
+                                        "name": "【2024060690387】",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-12 text-single"
+                                        },
+                                        "comment": "",
+                                        "children": "【2024060690387】",
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "33:40951",
+                                "name": "需求分解率实时指标优化：CDP模式下支持需求同时显示PI和迭代的信息",
+                                "componentName": "span",
+                                "props": {
+                                    "className": "text-13 text-multiple"
+                                },
+                                "comment": "",
+                                "children": "需求分解率实时指标优化：CDP模式下支持需求同时显示PI和迭代的信息",
+                                "scriptCode": []
+                            }
+                        ],
+                        "scriptCode": []
+                    },
+                    {
+                        "guid": "33:40953",
+                        "name": "Steps",
+                        "componentName": "div",
+                        "props": {
+                            "className": "page-box-14-1 flex"
+                        },
+                        "comment": "",
+                        "children": [{
+                                "guid": "34:4734",
+                                "name": "stepsData",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "page-box-15-1 flex-column"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "34:4735",
+                                        "name": "step-head",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "page-box-16 width-all flex"
+                                        },
+                                        "comment": "",
+                                        "children": [{
+                                                "guid": "34:4739",
+                                                "name": "status=finish",
+                                                "componentName": "div",
+                                                "props": {
+                                                    "className": "page-div-span-17 icon-size-20"
+                                                },
+                                                "comment": "",
+                                                "children": "1",
+                                                "scriptCode": []
+                                            },
+                                            {
+                                                "guid": "34:4743",
+                                                "name": "right",
+                                                "componentName": "div",
+                                                "props": {
+                                                    "className": "static-18-1"
+                                                },
+                                                "comment": "",
+                                                "children": [],
+                                                "scriptCode": []
+                                            }
+                                        ],
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "34:4746",
+                                        "name": "step-main",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "page-box-19 width-all flex-column"
+                                        },
+                                        "comment": "",
+                                        "children": [{
+                                                "guid": "34:4747",
+                                                "name": "节点名称",
+                                                "componentName": "span",
+                                                "props": {
+                                                    "className": "text-20"
+                                                },
+                                                "comment": "",
+                                                "children": "辅助文本",
+                                                "scriptCode": []
+                                            },
+                                            {
+                                                "guid": "34:4748",
+                                                "name": "辅助文本",
+                                                "componentName": "span",
+                                                "props": {
+                                                    "className": "text-21"
+                                                },
+                                                "comment": "",
+                                                "children": "辅助文本",
+                                                "scriptCode": []
+                                            }
+                                        ],
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "34:4749",
+                                "name": "stepsData",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "page-box-22-1 flex-column"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "34:4750",
+                                        "name": "step-head",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "page-box-23 flex"
+                                        },
+                                        "comment": "",
+                                        "children": [{
+                                                "guid": "34:4751",
+                                                "name": "left",
+                                                "componentName": "div",
+                                                "props": {
+                                                    "className": "static-24-1"
+                                                },
+                                                "comment": "",
+                                                "children": [],
+                                                "scriptCode": []
+                                            },
+                                            {
+                                                "guid": "34:4755",
+                                                "name": "路径",
+                                                "componentName": "div",
+                                                "props": {
+                                                    "className": "page-div-span-25 icon-size-20"
+                                                },
+                                                "comment": "",
+                                                "children": "2",
+                                                "scriptCode": []
+                                            },
+                                            {
+                                                "guid": "34:4757",
+                                                "name": "right",
+                                                "componentName": "div",
+                                                "props": {
+                                                    "className": "static-26-1"
+                                                },
+                                                "comment": "",
+                                                "children": [],
+                                                "scriptCode": []
+                                            }
+                                        ],
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "34:4761",
+                                        "name": "节点名称",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-27"
+                                        },
+                                        "comment": "",
+                                        "children": "步骤2",
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "34:4763",
+                                "name": "stepsData",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "page-box-28-1 flex-column"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "34:4764",
+                                        "name": "step-head",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "page-box-29 width-all flex"
+                                        },
+                                        "comment": "",
+                                        "children": [{
+                                                "guid": "34:4765",
+                                                "name": "left",
+                                                "componentName": "div",
+                                                "props": {
+                                                    "className": "static-30-1"
+                                                },
+                                                "comment": "",
+                                                "children": [],
+                                                "scriptCode": []
+                                            },
+                                            {
+                                                "guid": "34:4769",
+                                                "name": "无断点",
+                                                "componentName": "div",
+                                                "props": {
+                                                    "className": "page-div-span-31 icon-size-20"
+                                                },
+                                                "comment": "",
+                                                "children": "3",
+                                                "scriptCode": []
+                                            },
+                                            {
+                                                "guid": "34:4771",
+                                                "name": "right",
+                                                "componentName": "div",
+                                                "props": {
+                                                    "className": "static-32-1"
+                                                },
+                                                "comment": "",
+                                                "children": [],
+                                                "scriptCode": []
+                                            }
+                                        ],
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "34:4775",
+                                        "name": "节点名称",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-33"
+                                        },
+                                        "comment": "",
+                                        "children": "分析",
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "34:4777",
+                                "name": "stepsData",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "page-box-34-1 flex-column"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "34:4778",
+                                        "name": "step-head",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "page-box-35 flex"
+                                        },
+                                        "comment": "",
+                                        "children": [{
+                                                "guid": "34:4779",
+                                                "name": "left",
+                                                "componentName": "div",
+                                                "props": {
+                                                    "className": "icon-36-1 icon-size-20"
+                                                },
+                                                "comment": "",
+                                                "children": [],
+                                                "scriptCode": []
+                                            },
+                                            {
+                                                "guid": "34:4783",
+                                                "name": "无断点",
+                                                "componentName": "div",
+                                                "props": {
+                                                    "className": "page-div-span-37 icon-size-20"
+                                                },
+                                                "comment": "",
+                                                "children": "4",
+                                                "scriptCode": []
+                                            }
+                                        ],
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "34:4789",
+                                        "name": "节点名称",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-38"
+                                        },
+                                        "comment": "",
+                                        "children": "决策",
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            }
+                        ],
+                        "scriptCode": []
+                    },
+                    {
+                        "guid": "33:40955",
+                        "name": "画板 12864",
+                        "componentName": "div",
+                        "props": {
+                            "className": "page-box-39 flex-column"
+                        },
+                        "comment": "",
+                        "children": [{
+                                "guid": "33:40956",
+                                "name": "需求整体处理时长： 24 天",
+                                "componentName": "span",
+                                "props": {
+                                    "className": "text-40"
+                                },
+                                "comment": "",
+                                "children": "需求整体处理时长： 24 天",
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "33:40957",
+                                "name": "当前查看环节（需求预审） 处理时长： 14 天（该环节超期不处理，无自动过站逻辑，需要手动确认）",
+                                "componentName": "span",
+                                "props": {
+                                    "className": "text-41 text-multiple"
+                                },
+                                "comment": "",
+                                "children": "当前查看环节（需求预审） 处理时长： 14 天（该环节超期不处理，无自动过站逻辑，需要手动确认）",
+                                "scriptCode": []
+                            }
+                        ],
+                        "scriptCode": []
+                    },
+                    {
+                        "guid": "33:40958",
+                        "name": "Form",
+                        "componentName": "div",
+                        "props": {
+                            "className": "page-box-42-1 flex-column"
+                        },
+                        "comment": "",
+                        "children": [{
+                                "guid": "34:7869",
+                                "name": "Frame",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "page-box-43 width-all flex flex-between-center"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "34:7874",
+                                        "name": "label",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-44 text-single"
+                                        },
+                                        "comment": "",
+                                        "children": "上一环节",
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "34:7888",
+                                        "name": "请输入",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-45 text-single"
+                                        },
+                                        "comment": "",
+                                        "children": "请输入",
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "34:7904",
+                                "name": "Frame",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "page-box-46 width-all flex flex-between-center"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "34:7909",
+                                        "name": "label",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-47 text-single"
+                                        },
+                                        "comment": "",
+                                        "children": "操作人",
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "34:7923",
+                                        "name": "请输入",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-48 text-single"
+                                        },
+                                        "comment": "",
+                                        "children": "请输入",
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "34:7939",
+                                "name": "Frame",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "page-box-49 width-all flex flex-between-center"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "34:7944",
+                                        "name": "label",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-50 text-single"
+                                        },
+                                        "comment": "",
+                                        "children": "操作时间",
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "34:7958",
+                                        "name": "请输入",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-51 text-single"
+                                        },
+                                        "comment": "",
+                                        "children": "请输入",
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "34:7974",
+                                "name": "Frame",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "page-box-52 width-all flex flex-between-center"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "34:7979",
+                                        "name": "label",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-53 text-multiple"
+                                        },
+                                        "comment": "",
+                                        "children": "RMT/RAT综合结论",
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "34:7993",
+                                        "name": "请输入",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-54 text-single"
+                                        },
+                                        "comment": "",
+                                        "children": "请输入",
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "34:8009",
+                                "name": "Frame",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "page-box-55 width-all flex flex-between-center"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "34:8014",
+                                        "name": "label",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-56 text-single"
+                                        },
+                                        "comment": "",
+                                        "children": "综合意见",
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "34:8028",
+                                        "name": "请输入",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-57 text-single"
+                                        },
+                                        "comment": "",
+                                        "children": "请输入",
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "34:8044",
+                                "name": "Frame",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "page-box-58 width-all flex"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "34:8049",
+                                        "name": "label",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-59 text-multiple"
+                                        },
+                                        "comment": "",
+                                        "children": "中标/签单交付周期（天）",
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "34:8062",
+                                        "name": "picker",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "page-box-60-1 flex flex-end-center"
+                                        },
+                                        "comment": "",
+                                        "children": [{
+                                                "guid": "34:8063",
+                                                "name": "请选择",
+                                                "componentName": "span",
+                                                "props": {
+                                                    "className": "text-61 text-single"
+                                                },
+                                                "comment": "",
+                                                "children": "请选择",
+                                                "scriptCode": []
+                                            },
+                                            {
+                                                "guid": "34:8064",
+                                                "name": "icon icon-mobile-right-arrow-border",
+                                                "componentName": "div",
+                                                "props": {
+                                                    "className": "icon-62-1 icon-size-12"
+                                                },
+                                                "comment": "",
+                                                "children": [],
+                                                "scriptCode": []
+                                            }
+                                        ],
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "34:8072",
+                                "name": "Frame",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "page-box-63 width-all flex flex-between-center"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "34:8077",
+                                        "name": "label",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-64 text-multiple"
+                                        },
+                                        "comment": "",
+                                        "children": "中标/签单信息反馈期限",
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "34:8091",
+                                        "name": "请输入",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-65 text-single"
+                                        },
+                                        "comment": "",
+                                        "children": "请输入",
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            }
+                        ],
+                        "scriptCode": []
+                    }
+                ],
+                "scriptCode": []
+            },
+            {
+                "guid": "33:40960-0-box",
+                "name": "box",
+                "componentName": "div",
+                "props": {
+                    "className": "layout-h flex"
+                },
+                "comment": "",
+                "children": [{
+                        "guid": "33:40960",
+                        "name": "DropdownButton",
+                        "componentName": "div",
+                        "props": {
+                            "className": "page-box-66-1 flex"
+                        },
+                        "comment": "",
+                        "children": [{
+                                "guid": "34:362",
+                                "name": "更多",
+                                "componentName": "span",
+                                "props": {
+                                    "className": "text-67 text-single"
+                                },
+                                "comment": "",
+                                "children": "更多",
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "34:363",
+                                "name": "icon",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "icon-68 icon-size-12"
+                                },
+                                "comment": "",
+                                "children": [],
+                                "scriptCode": []
+                            }
+                        ],
+                        "scriptCode": []
+                    },
+                    {
+                        "guid": "33:40961",
+                        "name": "Button",
+                        "componentName": "div",
+                        "props": {
+                            "className": "page-div-span-69-1"
+                        },
+                        "comment": "",
+                        "children": "驳回",
+                        "scriptCode": []
+                    },
+                    {
+                        "guid": "33:40962",
+                        "name": "Button",
+                        "componentName": "div",
+                        "props": {
+                            "className": "page-div-span-70-1"
+                        },
+                        "comment": "",
+                        "children": "处理",
+                        "scriptCode": []
+                    }
+                ],
+                "scriptCode": []
+            },
+            {
+                "guid": "34:371",
+                "name": "矩形 23",
+                "componentName": "div",
+                "props": {
+                    "className": "page-background"
+                },
+                "comment": "",
+                "children": [],
+                "scriptCode": []
+            }
+        ],
+        "scriptCode": []
+    }],
+    "scriptCode": [],
+    "iconsMap": [],
+    "css": ".Page { height: 51.75rem; };\n.page-box { width: 22.5rem;background-color: rgba(243, 243, 243, 1);align-items: flex-start;padding: 0 0 0.625rem 0; };\n.page-box-0-1 { align-items: flex-start; };\n.page-box-1-1 { padding: 0.5rem 1.5rem; };\n.text { font-size: 0.938rem;color: rgba(0, 0, 0, 1);line-height: 1.25rem;font-weight: 500; };\n.static { width: 6rem;height: 0.813rem;background: url(/34_7617.svg) no-repeat;background-size: 100%; };\n.page-box-2-1 { align-items: center;padding: 0.375rem 0 0.375rem 1rem; };\n.page-box-3 { align-items: center;padding: 0 1rem 0 0;margin: 0 3.125rem 0 0; };\n.icon { background: url(/34_7676.svg) no-repeat;background-size: 100%;margin: 0 1rem 0 0; };\n.icon-4-1 { background: url(/34_7678.svg) no-repeat;background-size: 100%; };\n.text-5 { font-size: 1.063rem;color: rgba(25, 25, 25, 1);line-height: 1.5rem;font-weight: normal;margin: 0 3.375rem 0 0; };\n.static-6-1 { background: url(/34_7701.svg) no-repeat;background-size: 100%;align-items: center;padding: 0 0.5rem 0 0.25rem; };\n.icon-7-1 { background: url(/34_7704.svg) no-repeat;background-size: 100%;margin: 0 0.5rem 0 0; };\n.icon-8-1 { background: url(/34_7829.svg) no-repeat;background-size: 100%; };\n.page-box-9 { height: 40.5rem;align-items: flex-start;padding: 0.75rem 1rem 0.25rem 1rem;margin: 0 0 1rem 0; };\n.page-box-10 { border-radius: 1rem;background-color: rgba(255, 255, 255, 1);align-items: flex-start;padding: 0.75rem 1.688rem 0.75rem 0.75rem;margin: 0 0 1.438rem 0; };\n.page-box-11 { align-items: center;padding: 0 1px 0 0;margin: 0 0 0.5rem 0; };\n.page-div-span-1 { width: 2rem;height: 1.25rem;border-radius: 0.25rem;background-color: rgba(32, 112, 243, 1);font-size: 0.75rem;color: rgba(255, 255, 255, 1);line-height: 1.25rem;text-align: center;margin: 0 0.25rem 0 0; };\n.text-12 { font-size: 0.875rem;color: rgba(10, 89, 247, 1);line-height: 1.375rem;font-weight: bold; };\n.text-13 { width: 18.063rem;font-size: 1rem;height: 3rem;color: rgba(25, 25, 25, 1);line-height: 1.5rem;font-weight: bold; };\n.page-box-14-1 { height: 4.563rem;align-items: flex-start;margin: 0 0 2.25rem 0.75rem; };\n.page-box-15-1 { width: 4.25rem;align-self: flex-end;align-items: flex-start;margin: 0 0.5rem 0 0; };\n.page-box-16 { align-items: center;padding: 0 0 0 1.5rem;margin: 0 0 0.5rem 0; };\n.page-div-span-17 { overflow: hidden;background: url(/34_4741.svg) no-repeat;background-size: 100%;font-size: 0.875rem;color: rgba(10, 89, 247, 1);line-height: 1.25rem;text-align: right;padding: 0 -0.375rem 0 0;margin: 0 0.5rem 0 0; };\n.static-18-1 { width: 1rem;height: 1.25rem;background: url(/34_4743.svg) no-repeat;background-size: 100%; };\n.page-box-19 { align-items: flex-start;padding: 0 0.375rem; };\n.text-20 { font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 1.375rem;font-weight: bold;margin: 0 0 0.125rem 0; };\n.text-21 { font-size: 0.75rem;color: rgba(119, 119, 119, 1);line-height: 1.25rem;font-weight: normal;margin: 0 0 0 0.25rem; };\n.page-box-22-1 { align-self: flex-start;align-items: flex-start;margin: 0 0.5rem 0 0; };\n.page-box-23 { align-items: center;padding: 1px 0;margin: 0 0 0.438rem 0; };\n.static-24-1 { width: 1rem;height: 1.25rem;background: url(/34_4751.svg) no-repeat;background-size: 100%;margin: 0 0.5rem 0 0; };\n.page-div-span-25 { background: url(/34_4755.svg) no-repeat;background-size: 100%;font-size: 0.875rem;color: rgba(255, 255, 255, 1);line-height: 1.25rem;text-align: center;margin: 0 0.5rem 0 0; };\n.static-26-1 { width: 1rem;height: 1.25rem;background: url(/34_4757.svg) no-repeat;background-size: 100%; };\n.text-27 { font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 1.375rem;font-weight: bold;margin: 0 0 0 1rem; };\n.page-box-28-1 { width: 4.25rem;align-self: flex-start;align-items: flex-start;margin: 0 0.5rem 0 0; };\n.page-box-29 { align-items: center;padding: 1px 0;margin: 0 0 0.438rem 0; };\n.static-30-1 { width: 1rem;height: 1.25rem;background: url(/34_4765.svg) no-repeat;background-size: 100%;margin: 0 0.5rem 0 0; };\n.page-div-span-31 { background: url(/34_4769.svg) no-repeat;background-size: 100%;font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 1.25rem;text-align: center;margin: 0 0.5rem 0 0; };\n.static-32-1 { width: 1rem;height: 1.25rem;background: url(/34_4771.svg) no-repeat;background-size: 100%; };\n.text-33 { font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 1.375rem;align-self: center;font-weight: bold; };\n.page-box-34-1 { width: 3.25rem;align-self: flex-start;align-items: flex-start; };\n.page-box-35 { align-items: center;padding: 1px 0;margin: 0 0 0.438rem 0; };\n.icon-36-1 { background: url(/34_4779.svg) no-repeat;background-size: 100%;margin: 0 0.5rem 0 0; };\n.page-div-span-37 { background: url(/34_4783.svg) no-repeat;background-size: 100%;font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 1.25rem;text-align: center; };\n.text-38 { font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 1.375rem;align-self: flex-end;font-weight: bold; };\n.page-box-39 { width: 19rem;align-items: flex-start;padding: 0 0.25rem 0 0;margin: 0 0 0.75rem 0.75rem; };\n.text-40 { font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 1.5rem;font-weight: bold;margin: 0 0 0.25rem 0; };\n.text-41 { width: 18.75rem;font-size: 0.75rem;height: 2.25rem;color: rgba(0, 0, 0, 0.60);line-height: 1.125rem;font-weight: normal; };\n.page-box-42-1 { width: 19rem;align-items: flex-start;margin: 0 0 0 0.75rem; };\n.page-box-43 { border-bottom: 1px solid rgba(201, 201, 201, 1);padding: 0.75rem 0; };\n.text-44 { font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 1.375rem;font-weight: bold; };\n.text-45 { font-size: 0.875rem;color: rgba(174, 174, 174, 1);line-height: 1.375rem;font-weight: normal; };\n.page-box-46 { border-bottom: 1px solid rgba(201, 201, 201, 1);padding: 0.75rem 0; };\n.text-47 { font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 1.375rem;font-weight: bold; };\n.text-48 { font-size: 0.875rem;color: rgba(174, 174, 174, 1);line-height: 1.375rem;font-weight: normal; };\n.page-box-49 { border-bottom: 1px solid rgba(201, 201, 201, 1);padding: 0.75rem 0; };\n.text-50 { font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 1.375rem;font-weight: bold; };\n.text-51 { font-size: 0.875rem;color: rgba(174, 174, 174, 1);line-height: 1.375rem;font-weight: normal; };\n.page-box-52 { border-bottom: 1px solid rgba(201, 201, 201, 1);padding: 0.75rem 0; };\n.text-53 { width: 6.25rem;font-size: 0.875rem;height: 1.375rem;color: rgba(25, 25, 25, 1);line-height: 1.375rem;font-weight: bold; };\n.text-54 { font-size: 0.875rem;color: rgba(174, 174, 174, 1);line-height: 1.375rem;font-weight: normal; };\n.page-box-55 { border-bottom: 1px solid rgba(201, 201, 201, 1);padding: 0.75rem 0; };\n.text-56 { font-size: 0.875rem;color: rgba(25, 25, 25, 1);line-height: 1.375rem;font-weight: bold; };\n.text-57 { font-size: 0.875rem;color: rgba(174, 174, 174, 1);line-height: 1.375rem;font-weight: normal; };\n.page-box-58 { border-bottom: 1px solid rgba(201, 201, 201, 1);align-items: center;padding: 0.75rem 0; };\n.text-59 { width: 6.25rem;font-size: 0.875rem;height: 1.375rem;color: rgba(25, 25, 25, 1);line-height: 1.375rem;font-weight: bold;margin: 0 0.75rem 0 0; };\n.page-box-60-1 { width: calc(100% - 7rem); };\n.text-61 { font-size: 0.875rem;color: rgba(174, 174, 174, 1);line-height: 1.375rem;font-weight: normal;margin: 0 0.75rem 0 0; };\n.icon-62-1 { background: url(/34_8064.svg) no-repeat;background-size: 100%; };\n.page-box-63 { padding: 0.688rem 0; };\n.text-64 { width: 5.375rem;font-size: 1rem;height: 1.5rem;color: rgba(25, 25, 25, 1);line-height: 1.5rem;font-weight: normal; };\n.text-65 { font-size: 0.875rem;color: rgba(174, 174, 174, 1);line-height: 1.375rem;font-weight: normal; };\n.layout-h { width: 20.563rem;height: 2.5rem;align-self: flex-end;gap: 0.75rem;align-items: stretch;margin: 0 0.938rem 1.75rem 0; };\n.page-box-66-1 { border-radius: 1.25rem;background-color: rgba(25, 25, 25, 0.05);flex: 1;align-items: center;padding: 0.5rem 0 0.5rem 1.563rem; };\n.text-67 { font-size: 1rem;color: rgba(25, 25, 25, 1);line-height: 1.5rem;font-weight: bold;margin: 0 0.5rem 0 0; };\n.icon-68 { background: url(/34_363.svg) no-repeat;background-size: 100%; };\n.page-div-span-69-1 { width: 6.375rem;height: 2.5rem;border-radius: 1.25rem;background-color: rgba(10, 89, 247, 1);font-size: 1rem;color: rgba(255, 255, 255, 1);line-height: 2.5rem;text-align: center; };\n.page-div-span-70-1 { width: 6.375rem;height: 2.5rem;border-radius: 1.25rem;background-color: rgba(10, 89, 247, 1);font-size: 1rem;color: rgba(255, 255, 255, 1);line-height: 2.5rem;text-align: center; };\n.page-background { width: 6.75rem;height: 0.375rem;border-radius: 0.188rem;background-color: rgba(174, 174, 174, 1);align-self: center; }",
+    "state": {},
+    "methods": {},
+    "dependencies": [],
+    "fileName": "HomePage"
+}]

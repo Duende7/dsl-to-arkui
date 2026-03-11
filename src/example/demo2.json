@@ -1,0 +1,566 @@
+[{
+    "guid": "page",
+    "name": "Page",
+    "componentName": "Page",
+    "props": {
+        "className": "width-all Page"
+    },
+    "comment": "",
+    "children": [{
+        "guid": "33:943",
+        "name": "服药设置",
+        "componentName": "div",
+        "props": {
+            "className": "page-box flex-column"
+        },
+        "comment": "",
+        "children": [{
+                "guid": "33:2793",
+                "name": "1.StatusBar",
+                "componentName": "div",
+                "props": {
+                    "className": "page-box-0-1 width-all flex flex-between-center"
+                },
+                "comment": "",
+                "children": [{
+                        "guid": "33:3391",
+                        "name": "08:08",
+                        "componentName": "span",
+                        "props": {
+                            "className": "text text-single"
+                        },
+                        "comment": "",
+                        "children": "08:08",
+                        "scriptCode": []
+                    },
+                    {
+                        "guid": "33:3392",
+                        "name": "画板 1",
+                        "componentName": "div",
+                        "props": {
+                            "className": "page-box-1 flex"
+                        },
+                        "comment": "",
+                        "children": [{
+                                "guid": "33:3413",
+                                "name": "形状结合",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "static"
+                                },
+                                "comment": "",
+                                "children": [],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "33:3439",
+                                "name": "single card",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "static-2-1"
+                                },
+                                "comment": "",
+                                "children": [],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "33:3405",
+                                "name": "dual card",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "static-3-1"
+                                },
+                                "comment": "",
+                                "children": [],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "33:3393",
+                                "name": "cell",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "static-4-1"
+                                },
+                                "comment": "",
+                                "children": [],
+                                "scriptCode": []
+                            }
+                        ],
+                        "scriptCode": []
+                    }
+                ],
+                "scriptCode": []
+            },
+            {
+                "guid": "33:3656",
+                "name": "Left",
+                "componentName": "div",
+                "props": {
+                    "className": "page-box-5-1 flex flex-start-center"
+                },
+                "comment": "",
+                "children": [{
+                        "guid": "33:3657",
+                        "name": "3.Icon Button",
+                        "componentName": "div",
+                        "props": {
+                            "className": "static-6-1 icon-size-40"
+                        },
+                        "comment": "",
+                        "children": [],
+                        "scriptCode": []
+                    },
+                    {
+                        "guid": "33:3663",
+                        "name": "服药设置",
+                        "componentName": "span",
+                        "props": {
+                            "className": "text-7 text-single"
+                        },
+                        "comment": "",
+                        "children": "服药设置",
+                        "scriptCode": []
+                    }
+                ],
+                "scriptCode": []
+            },
+            {
+                "guid": "33:946",
+                "name": "容器 7320",
+                "componentName": "div",
+                "props": {
+                    "className": "page-box-8-1 flex"
+                },
+                "comment": "",
+                "children": [{
+                        "guid": "33:3631",
+                        "name": ".Left - 1 lines",
+                        "componentName": "div",
+                        "props": {
+                            "className": "page-box-9-1 flex flex-start-center"
+                        },
+                        "comment": "",
+                        "children": [{
+                                "guid": "33:3635",
+                                "name": "󰊮",
+                                "componentName": "span",
+                                "props": {
+                                    "className": "text-10 text-single"
+                                },
+                                "comment": "",
+                                "children": "󰊮",
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "33:3636",
+                                "name": "任务目标",
+                                "componentName": "span",
+                                "props": {
+                                    "className": "text-11 text-single"
+                                },
+                                "comment": "",
+                                "children": "任务目标",
+                                "scriptCode": []
+                            }
+                        ],
+                        "scriptCode": []
+                    },
+                    {
+                        "guid": "33:3637",
+                        "name": "容器 7315",
+                        "componentName": "div",
+                        "props": {
+                            "className": "page-div-span"
+                        },
+                        "comment": "",
+                        "children": "2 次/天",
+                        "scriptCode": []
+                    }
+                ],
+                "scriptCode": []
+            },
+            {
+                "guid": "33:947-copy",
+                "name": "容器 7367",
+                "componentName": "section",
+                "props": {
+                    "className": "section flex-column"
+                },
+                "comment": "",
+                "children": [{
+                        "guid": "33:948",
+                        "name": "List-Phone",
+                        "componentName": "div",
+                        "props": {
+                            "className": "section-box-1 width-all flex"
+                        },
+                        "comment": "",
+                        "children": [{
+                                "guid": "33:3489",
+                                "name": ".Left - 1 lines",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "section-box-12-1 flex-column"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "33:3492",
+                                        "name": "计划 08:00",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-13"
+                                        },
+                                        "comment": "",
+                                        "children": "计划 08:00",
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "33:3490",
+                                        "name": "Divider-Phone",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "static-14-1"
+                                        },
+                                        "comment": "",
+                                        "children": [],
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "33:3494",
+                                "name": "right=Text",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "static-15-1"
+                                },
+                                "comment": "",
+                                "children": [],
+                                "scriptCode": []
+                            }
+                        ],
+                        "scriptCode": []
+                    },
+                    {
+                        "guid": "33:949",
+                        "name": "List-Phone",
+                        "componentName": "div",
+                        "props": {
+                            "className": "section-box-16-1 width-all flex"
+                        },
+                        "comment": "",
+                        "children": [{
+                                "guid": "33:3560",
+                                "name": ".Left - 2 lines",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "section-box-17-1 flex-column"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "33:3563",
+                                        "name": "复合维生素",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-18"
+                                        },
+                                        "comment": "",
+                                        "children": "复合维生素",
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "33:3564",
+                                        "name": "🔤Text",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-19"
+                                        },
+                                        "comment": "",
+                                        "children": "1 粒，温水服用，饭后",
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "33:3561",
+                                        "name": "Divider-Phone",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "static-20-1"
+                                        },
+                                        "comment": "",
+                                        "children": [],
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "33:3565",
+                                "name": ".Right - 1 lines",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "static-21-1"
+                                },
+                                "comment": "",
+                                "children": [],
+                                "scriptCode": []
+                            }
+                        ],
+                        "scriptCode": []
+                    },
+                    {
+                        "guid": "33:950",
+                        "name": "List-Phone",
+                        "componentName": "div",
+                        "props": {
+                            "className": "section-box-22-1 width-all flex flex-between-center"
+                        },
+                        "comment": "",
+                        "children": [{
+                                "guid": "33:3602",
+                                "name": ".Left - 2 lines",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "section-box-23-1 flex-column"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "33:3605",
+                                        "name": "钙镁片",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-24"
+                                        },
+                                        "comment": "",
+                                        "children": "钙镁片",
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "33:3606",
+                                        "name": "🔤Text",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-25"
+                                        },
+                                        "comment": "",
+                                        "children": "1 粒，温水服用，饭后",
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "33:3611",
+                                "name": ".Arrow-right small",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "static-26-1"
+                                },
+                                "comment": "",
+                                "children": [],
+                                "scriptCode": []
+                            }
+                        ],
+                        "scriptCode": []
+                    }
+                ],
+                "scriptCode": []
+            },
+            {
+                "guid": "33:951-copy",
+                "name": "容器 7368",
+                "componentName": "section",
+                "props": {
+                    "className": "section-27 flex-column"
+                },
+                "comment": "",
+                "children": [{
+                        "guid": "33:952",
+                        "name": "List-Phone",
+                        "componentName": "div",
+                        "props": {
+                            "className": "section-box-28-1 width-all flex"
+                        },
+                        "comment": "",
+                        "children": [{
+                                "guid": "33:3475",
+                                "name": ".Left - 1 lines",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "section-box-29-1 flex-column"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "33:3478",
+                                        "name": "计划 18:00",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-30"
+                                        },
+                                        "comment": "",
+                                        "children": "计划 18:00",
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "33:3476",
+                                        "name": "Divider-Phone",
+                                        "componentName": "div",
+                                        "props": {
+                                            "className": "static-31-1"
+                                        },
+                                        "comment": "",
+                                        "children": [],
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "33:3480",
+                                "name": "right=Text",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "static-32-1"
+                                },
+                                "comment": "",
+                                "children": [],
+                                "scriptCode": []
+                            }
+                        ],
+                        "scriptCode": []
+                    },
+                    {
+                        "guid": "33:954",
+                        "name": "List-Phone",
+                        "componentName": "div",
+                        "props": {
+                            "className": "section-box-33-1 width-all flex flex-between-center"
+                        },
+                        "comment": "",
+                        "children": [{
+                                "guid": "33:3588",
+                                "name": ".Left - 2 lines",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "section-box-34-1 flex-column"
+                                },
+                                "comment": "",
+                                "children": [{
+                                        "guid": "33:3591",
+                                        "name": "钙镁片",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-35"
+                                        },
+                                        "comment": "",
+                                        "children": "钙镁片",
+                                        "scriptCode": []
+                                    },
+                                    {
+                                        "guid": "33:3592",
+                                        "name": "🔤Text",
+                                        "componentName": "span",
+                                        "props": {
+                                            "className": "text-36"
+                                        },
+                                        "comment": "",
+                                        "children": "1 粒，温水服用，饭后",
+                                        "scriptCode": []
+                                    }
+                                ],
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "33:3597",
+                                "name": ".Arrow-right small",
+                                "componentName": "div",
+                                "props": {
+                                    "className": "static-37-1"
+                                },
+                                "comment": "",
+                                "children": [],
+                                "scriptCode": []
+                            }
+                        ],
+                        "scriptCode": []
+                    }
+                ],
+                "scriptCode": []
+            },
+            {
+                "guid": "33:955",
+                "name": "容器 7369",
+                "componentName": "div",
+                "props": {
+                    "className": "page-div-span-38"
+                },
+                "comment": "",
+                "children": "添加服药",
+                "scriptCode": []
+            },
+            {
+                "guid": "33:959",
+                "name": "容器 7370",
+                "componentName": "div",
+                "props": {
+                    "className": "page-box-39 flex flex-between-center"
+                },
+                "comment": "",
+                "children": [{
+                        "guid": "33:3449",
+                        "name": "left-1=24dp_ic",
+                        "componentName": "div",
+                        "props": {
+                            "className": "page-box-40-1 flex flex-start-center"
+                        },
+                        "comment": "",
+                        "children": [{
+                                "guid": "33:3453",
+                                "name": "󰇕",
+                                "componentName": "span",
+                                "props": {
+                                    "className": "text-41 text-single"
+                                },
+                                "comment": "",
+                                "children": "󰇕",
+                                "scriptCode": []
+                            },
+                            {
+                                "guid": "33:3454",
+                                "name": "提醒",
+                                "componentName": "span",
+                                "props": {
+                                    "className": "text-42 text-single"
+                                },
+                                "comment": "",
+                                "children": "提醒",
+                                "scriptCode": []
+                            }
+                        ],
+                        "scriptCode": []
+                    },
+                    {
+                        "guid": "33:3459",
+                        "name": "Switch-Phone",
+                        "componentName": "div",
+                        "props": {
+                            "className": "static-43-1"
+                        },
+                        "comment": "",
+                        "children": [],
+                        "scriptCode": []
+                    }
+                ],
+                "scriptCode": []
+            }
+        ],
+        "scriptCode": []
+    }],
+    "scriptCode": [],
+    "iconsMap": [],
+    "css": ".Page { height: 49.5rem; };\n.page-box { width: 22.5rem;background-color: rgba(241, 243, 245, 1);align-items: flex-start;padding: 0 0 9.75rem 0; };\n.page-box-0-1 { padding: 0.5rem 1.5rem; };\n.text { font-size: 0.938rem;color: rgba(0, 0, 0, 0.90);line-height: 1.25rem;font-weight: 500; };\n.page-box-1 { align-items: center; };\n.static { width: 0.938rem;height: 0.75rem;background: url(/33_3413.svg) no-repeat;background-size: 100%;margin: 0 0.375rem 0 0; };\n.static-2-1 { width: 1.375rem;height: 0.75rem;background: url(/33_3439.svg) no-repeat;background-size: 100%;margin: 0 0.25rem 0 0; };\n.static-3-1 { width: 1.125rem;height: 0.75rem;background: url(/33_3405.svg) no-repeat;background-size: 100%;margin: 0 0.313rem 0 0; };\n.static-4-1 { width: 1.625rem;height: 0.813rem;background: url(/33_3393.svg) no-repeat;background-size: 100%; };\n.page-box-5-1 { width: 20.5rem;padding: 0.5rem 0;margin: 0 0 0.5rem 1rem; };\n.static-6-1 { border-radius: 62.5rem;background: url(/33_3657.svg) no-repeat;background-size: 100%;margin: 0 0.5rem 0 0; };\n.text-7 { font-size: 1.25rem;color: rgba(0, 0, 0, 0.90);line-height: 1.688rem;font-weight: bold; };\n.page-box-8-1 { border-radius: 1.25rem;background-color: rgba(255, 255, 255, 1);align-items: center;padding: 0.25rem 0.75rem;margin: 0 0 0.75rem 1rem; };\n.page-box-9-1 { width: 15.625rem;padding: 1rem 0;margin: 0 0.5rem 0 0; };\n.text-10 { font-size: 1.5rem;color: rgba(0, 0, 0, 0.90);line-height: 1.5rem;font-weight: normal;margin: 0 1rem 0 0; };\n.text-11 { font-size: 1rem;color: rgba(0, 0, 0, 0.90);line-height: 1.375rem;font-weight: 500; };\n.page-div-span { width: 2.875rem;height: 3.5rem;font-size: 0.875rem;color: rgba(0, 0, 0, 0.60);line-height: 3.5rem;text-align: center; };\n.section { width: 20.5rem;border-radius: 1.25rem;background-color: rgba(255, 255, 255, 1);align-items: flex-start;padding: 0.25rem 0;margin: 0 0 0.75rem 1rem; };\n.section-box-1 { align-items: center;padding: 0 0 0 0.75rem; };\n.section-box-12-1 { width: calc(100% - 7.75rem);align-items: flex-start;padding: 0.875rem 0 0 0; };\n.text-13 { font-size: 1rem;color: rgba(0, 0, 0, 0.90);line-height: 1.313rem;font-weight: 500;margin: 0 0 0.75rem 0; };\n.static-14-1 { width: 12rem;height: 1px;background: url(/33_3490.svg) no-repeat;background-size: 100%; };\n.static-15-1 { width: 7rem;height: 3rem;background: url(/33_3494.svg) no-repeat;background-size: 100%; };\n.section-box-16-1 { align-items: center;padding: 0 0 0 0.75rem; };\n.section-box-17-1 { width: calc(100% - 7.75rem);align-items: flex-start;padding: 0.688rem 0 0 0; };\n.text-18 { font-size: 1rem;color: rgba(0, 0, 0, 0.90);line-height: 1.375rem;font-weight: 500;margin: 0 0 0.125rem 0; };\n.text-19 { font-size: 0.875rem;color: rgba(0, 0, 0, 0.60);line-height: 1.188rem;font-weight: normal;margin: 0 0 0.563rem 0; };\n.static-20-1 { width: 12rem;height: 1px;background: url(/33_3561.svg) no-repeat;background-size: 100%; };\n.static-21-1 { width: 7rem;height: 4rem;background: url(/33_3565.svg) no-repeat;background-size: 100%; };\n.section-box-22-1 { padding: 0 0.75rem; };\n.section-box-23-1 { width: 12rem;align-items: flex-start;padding: 0.688rem 0 0.625rem 0; };\n.text-24 { font-size: 1rem;color: rgba(0, 0, 0, 0.90);line-height: 1.375rem;font-weight: 500;margin: 0 0 0.125rem 0; };\n.text-25 { font-size: 0.875rem;color: rgba(0, 0, 0, 0.60);line-height: 1.188rem;font-weight: normal; };\n.static-26-1 { width: 0.75rem;height: 1.5rem;background: url(/33_3611.svg) no-repeat;background-size: 100%; };\n.section-27 { width: 20.5rem;border-radius: 1.25rem;background-color: rgba(255, 255, 255, 1);align-items: flex-start;padding: 0.25rem 0;margin: 0 0 0.75rem 1rem; };\n.section-box-28-1 { align-items: center;padding: 0 0 0 0.75rem; };\n.section-box-29-1 { width: calc(100% - 7.75rem);align-items: flex-start;padding: 0.875rem 0 0 0; };\n.text-30 { font-size: 1rem;color: rgba(0, 0, 0, 0.90);line-height: 1.313rem;font-weight: 500;margin: 0 0 0.75rem 0; };\n.static-31-1 { width: 12rem;height: 1px;background: url(/33_3476.svg) no-repeat;background-size: 100%; };\n.static-32-1 { width: 7rem;height: 3rem;background: url(/33_3480.svg) no-repeat;background-size: 100%; };\n.section-box-33-1 { padding: 0 0.75rem; };\n.section-box-34-1 { width: 12rem;align-items: flex-start;padding: 0.688rem 0 0.625rem 0; };\n.text-35 { font-size: 1rem;color: rgba(0, 0, 0, 0.90);line-height: 1.375rem;font-weight: 500;margin: 0 0 0.125rem 0; };\n.text-36 { font-size: 0.875rem;color: rgba(0, 0, 0, 0.60);line-height: 1.188rem;font-weight: normal; };\n.static-37-1 { width: 0.75rem;height: 1.5rem;background: url(/33_3597.svg) no-repeat;background-size: 100%; };\n.page-div-span-38 { width: 20.5rem;height: 3.5rem;border-radius: 1.25rem;background-color: rgba(255, 255, 255, 1);font-size: 1rem;color: rgba(251, 101, 34, 1);line-height: 3.5rem;padding: 0 0 0 0.75rem;margin: 0 0 0.75rem 1rem; };\n.page-box-39 { width: 20.5rem;height: 4rem;border-radius: 1.25rem;background-color: rgba(255, 255, 255, 1);padding: 0.25rem 0.75rem;margin: 0 0 0 1rem; };\n.page-box-40-1 { width: 12rem;padding: 1rem 0; };\n.text-41 { font-size: 1.5rem;color: rgba(0, 0, 0, 0.90);line-height: 1.5rem;font-weight: normal;margin: 0 1rem 0 0; };\n.text-42 { font-size: 1rem;color: rgba(0, 0, 0, 0.90);line-height: 1.375rem;font-weight: 500; };\n.static-43-1 { width: 2.25rem;height: 1.25rem;border-radius: 0.75rem;background: url(/33_3459.svg) no-repeat;background-size: 100%; }",
+    "state": {},
+    "methods": {},
+    "dependencies": [],
+    "fileName": "HomePage"
+}]

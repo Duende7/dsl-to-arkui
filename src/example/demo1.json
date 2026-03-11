@@ -1,0 +1,147 @@
+[{
+    "guid": "page",
+    "name": "Page",
+    "componentName": "Page",
+    "props": {
+        "className": "width-all Page"
+    },
+    "comment": "",
+    "children": [{
+        "guid": "2:749",
+        "name": "容器 1",
+        "componentName": "div",
+        "props": {
+            "className": "page-box flex"
+        },
+        "comment": "",
+        "children": [{
+            "guid": "2:926",
+            "name": "画板 347",
+            "componentName": "div",
+            "props": {
+                "className": "page-box-0 width-all flex-column"
+            },
+            "comment": "",
+            "children": [{
+                    "guid": "2:927",
+                    "name": "画板 342",
+                    "componentName": "div",
+                    "props": {
+                        "className": "page-box-1 width-all flex"
+                    },
+                    "comment": "",
+                    "children": [{
+                            "guid": "2:928",
+                            "name": "核心字段/麦穗改",
+                            "componentName": "div",
+                            "props": {
+                                "className": "static-1"
+                            },
+                            "comment": "",
+                            "children": [],
+                            "scriptCode": []
+                        },
+                        {
+                            "guid": "2:937",
+                            "name": "Title",
+                            "componentName": "span",
+                            "props": {
+                                "className": "text text-single"
+                            },
+                            "comment": "",
+                            "children": "编辑之选",
+                            "scriptCode": []
+                        },
+                        {
+                            "guid": "2:938",
+                            "name": "核心字段/麦穗改",
+                            "componentName": "div",
+                            "props": {
+                                "className": "static-2-1"
+                            },
+                            "comment": "",
+                            "children": [],
+                            "scriptCode": []
+                        }
+                    ],
+                    "scriptCode": []
+                },
+                {
+                    "guid": "2:946",
+                    "name": "Divider-Phone",
+                    "componentName": "div",
+                    "props": {
+                        "className": "static-3-1"
+                    },
+                    "comment": "",
+                    "children": [],
+                    "scriptCode": []
+                },
+                {
+                    "guid": "2:949",
+                    "name": "画板 109",
+                    "componentName": "div",
+                    "props": {
+                        "className": "page-box-4 width-all relative flex"
+                    },
+                    "comment": "",
+                    "children": [{
+                            "guid": "2:956",
+                            "name": "当硅基算法的精密网格与碳基生命的澎湃情感在云端轰然交汇，这座用万亿级音轨编织的数字巴别塔竟生长出血肉——网易云音乐此次问鼎「编辑之选」王座正是因其以神经网络算法为作曲骨架、以人间烟火故事为旋律灵魂，在虚拟与现实的裂隙中搭建起声音的诺亚方舟。我们不仅垄断性集结全球超12000家顶尖厂牌亿万级高解析音源库与2400组独家音乐人全息纪录片矩阵，更凭借「情绪光谱推荐系统」破译你听觉神经的摩尔斯密码：那些深夜里突然让你屏住呼吸的《心动模式》推荐，是6800小时深度学习与元老级编辑联合淬炼的预言式艺术；每条约3.2亿次展示的爆款乐评背后，站立着5亿用户在人生十字路口刻下的时光胶囊。",
+                            "componentName": "span",
+                            "props": {
+                                "className": "text-5 text-multiple"
+                            },
+                            "comment": "",
+                            "children": "当硅基算法的精密网格与碳基生命的澎湃情感在云端轰然交汇，这座用万亿级音轨编织的数字巴别塔竟生长出血肉——网易云音乐此次问鼎「编辑之选」王座正是因其以神经网络算法为作曲骨架、以人间烟火故事为旋律灵魂，在虚拟与现实的裂隙中搭建起声音的诺亚方舟。我们不仅垄断性集结全球超12000家顶尖厂牌亿万级高解析音源库与2400组独家音乐人全息纪录片矩阵，更凭借「情绪光谱推荐系统」破译你听觉神经的摩尔斯密码：那些深夜里突然让你屏住呼吸的《心动模式》推荐，是6800小时深度学习与元老级编辑联合淬炼的预言式艺术；每条约3.2亿次展示的爆款乐评背后，站立着5亿用户在人生十字路口刻下的时光胶囊。",
+                            "scriptCode": []
+                        },
+                        {
+                            "guid": "2:950",
+                            "name": "展开收起",
+                            "componentName": "div",
+                            "props": {
+                                "className": "page-box-6-1 absolute z-index-2 flex"
+                            },
+                            "comment": "",
+                            "children": [{
+                                    "guid": "2:951",
+                                    "name": "蒙版",
+                                    "componentName": "div",
+                                    "props": {
+                                        "className": "static-7"
+                                    },
+                                    "comment": "",
+                                    "children": [],
+                                    "scriptCode": []
+                                },
+                                {
+                                    "guid": "2:954",
+                                    "name": "画板 306",
+                                    "componentName": "div",
+                                    "props": {
+                                        "className": "page-div-span"
+                                    },
+                                    "comment": "",
+                                    "children": "更多",
+                                    "scriptCode": []
+                                }
+                            ],
+                            "scriptCode": []
+                        }
+                    ],
+                    "scriptCode": []
+                }
+            ],
+            "scriptCode": []
+        }],
+        "scriptCode": []
+    }],
+    "scriptCode": [],
+    "iconsMap": [],
+    "css": ".Page { height: 13.875rem; };\n.page-box { width: 22.5rem;padding: 0.5rem 0 0 0; };\n.page-box-0 { height: 13.375rem;background-color: rgba(255, 255, 255, 1);background: url(/2_957.svg) no-repeat;align-items: flex-start;padding: 1rem; };\n.page-box-1 { align-items: center;margin: 0 0 0.75rem 0; };\n.static-1 { width: 0.625rem;height: 1rem;background: url(/2_928.svg) no-repeat;background-size: 100%;margin: 0 0.125rem 0 0; };\n.text { font-size: 1.125rem;color: rgba(0, 0, 0, 0.90);line-height: 1.5rem;font-weight: bold;margin: 0 0.125rem 0 0; };\n.static-2-1 { width: 0.625rem;height: 1rem;background: url(/2_938.svg) no-repeat;background-size: 100%; };\n.static-3-1 { width: 20.5rem;height: 1px;background: url(/2_946.svg) no-repeat;background-size: 100%;margin: 0 0 0.75rem 0; };\n.page-box-4 { padding: 0 1px 0 0; };\n.text-5 { width: 20.438rem;font-size: 0.875rem;height: 8.313rem;color: rgba(0, 0, 0, 0.90);line-height: 1.4rem;font-weight: normal; };\n.page-box-6-1 { top: 6.875rem;right: 0rem;align-items: center; };\n.static-7 { width: 2rem;height: 1.438rem;background: url(/2_951.svg) no-repeat;background-size: 100%; };\n.page-div-span { width: 1.75rem;height: 1.438rem;background-color: rgba(255, 255, 255, 1);font-size: 0.875rem;color: rgba(10, 89, 247, 1);line-height: 1.438rem;text-align: center; }",
+    "state": {},
+    "methods": {},
+    "dependencies": [],
+    "fileName": "HomePage"
+}]
