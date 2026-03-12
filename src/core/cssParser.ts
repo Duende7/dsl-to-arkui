@@ -212,12 +212,29 @@ export function convertCssPropToArkUI(prop: string, value: string): string | nul
       return `.opacity(${value})`;
 
     case "border": {
-      // 简单处理: "1px solid #ccc"
+      // "1px solid rgba(...)" → .border({ width, color, style })
       const parts = value.split(/\s+/);
       if (parts.length >= 3) {
         const width = parseLength(parts[0]);
+        const style = mapBorderStyle(parts[1]);
         const color = parts.slice(2).join(" ");
-        return `.border({ width: ${width}, color: "${color}" })`;
+        return `.border({ width: ${width}, color: "${color}", style: ${style} })`;
+      }
+      return null;
+    }
+
+    case "border-top":
+    case "border-right":
+    case "border-bottom":
+    case "border-left": {
+      // "1px solid rgba(...)" → .border({ width: { side }, color: { side }, style: { side } })
+      const parts = value.split(/\s+/);
+      if (parts.length >= 3) {
+        const side  = prop.slice("border-".length); // "top" | "right" | "bottom" | "left"
+        const width = parseLength(parts[0]);
+        const style = mapBorderStyle(parts[1]);
+        const color = parts.slice(2).join(" ");
+        return `.border({ width: { ${side}: ${width} }, color: { ${side}: "${color}" }, style: { ${side}: ${style} } })`;
       }
       return null;
     }
@@ -233,6 +250,14 @@ export function convertCssPropToArkUI(prop: string, value: string): string | nul
 
     default:
       return null;
+  }
+}
+
+function mapBorderStyle(value: string): string {
+  switch (value) {
+    case "dashed": return "BorderStyle.Dashed";
+    case "dotted": return "BorderStyle.Dotted";
+    default:       return "BorderStyle.Solid";
   }
 }
 

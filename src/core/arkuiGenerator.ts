@@ -261,6 +261,7 @@ const IMAGE_ALLOWED_PROPS = new Set([
   "margin", "margin-top", "margin-right", "margin-bottom", "margin-left",
   "padding", "padding-top", "padding-right", "padding-bottom", "padding-left",
   "border-radius", "opacity", "border", "border-color", "border-width",
+  "border-top", "border-right", "border-bottom", "border-left",
   "min-width", "max-width", "min-height", "max-height",
 ]);
 
