@@ -666,7 +666,11 @@ function generatePage(page: DslPage): string {
 // ---- 工具函数 ----
 
 function escapeStr(s: string): string {
-  return s.replace(/\\/g, "\\\\").replace(/"/g, '\\"');
+  return s
+    .replace(/\r?\n|\r/g, "")   // 去掉换行符（\r\n / \n / \r）
+    .replace(/\t/g, " ")        // tab → 空格
+    .replace(/\\/g, "\\\\")
+    .replace(/"/g, '\\"');
 }
 
 function sanitizeName(name: string): string {
