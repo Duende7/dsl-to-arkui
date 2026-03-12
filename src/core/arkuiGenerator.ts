@@ -235,6 +235,22 @@ function extractBackgroundUrl(classNames: string[], classStyleMap: ClassStyleMap
   return "";
 }
 
+// ---- 图片路径 → ArkUI 资源引用 ----
+
+/**
+ * 将 CSS background-url 或 src 路径转为 ArkUI 资源引用格式。
+ * /2_928.svg → $r('app.media.2_928')
+ * 网络 URL 保持为字符串。
+ */
+function toArkUIResource(url: string): string {
+  if (!url) return '""';
+  if (url.startsWith("http://") || url.startsWith("https://")) return `"${url}"`;
+  // 去掉开头斜杠和文件扩展名
+  const name = url.replace(/^\/+/, "").replace(/\.[^.]+$/, "");
+  if (!name) return '""';
+  return `$r('app.media.${name}')`;
+}
+
 // ---- 从 CSS 获取 background-size → objectFit ----
 
 function getObjectFit(classNames: string[], classStyleMap: ClassStyleMap): string {
@@ -417,7 +433,7 @@ function generateNode(
       if (IMAGE_ALLOWED_PROPS.has(k)) imageStyle[k] = v;
     }
     const styles = styleMapToArkUI(imageStyle, propIndent);
-    const lines = [`${indent}Image("${src}")`];
+    const lines = [`${indent}Image(${toArkUIResource(src)})`];
     if (objectFit) lines.push(`${propIndent}.objectFit(${objectFit})`);
     if (styles)    lines.push(styles);
     return lines.join("\n") + posSuffix;
@@ -427,7 +443,31 @@ function generateNode(
   if (component === "Text") {
     const text   = typeof node.children === "string" ? node.children : "";
     const styles = styleMapToArkUI(mergedStyle, propIndent);
-    return [`${indent}Text("${escapeStr(text)}")`, styles].filter(Boolean).join("\n") + posSuffix;
+
+    // 根据 text-single / text-multiple 公共类生成对应 ArkUI 修饰符
+    const isSingleLine = classNames.includes("text-single");
+    const isMultiLine  = classNames.includes("text-multiple");
+    const textModifiers: string[] = [];
+
+    if (isSingleLine) {
+      textModifiers.push(`${propIndent}.maxLines(1)`);
+      textModifiers.push(`${propIndent}.textOverflow({ overflow: TextOverflow.Ellipsis })`);
+    } else if (isMultiLine) {
+      // 若同时设置了 height 和 line-height，计算最多可显示的行数
+      const h  = mergedStyle["height"]      ? parseLengthNum(mergedStyle["height"])      : 0;
+      const lh = mergedStyle["line-height"] ? parseLengthNum(mergedStyle["line-height"]) : 0;
+      if (h > 0 && lh > 0) {
+        const maxLines = Math.floor(h / lh);
+        if (maxLines > 1) textModifiers.push(`${propIndent}.maxLines(${maxLines})`);
+      }
+      textModifiers.push(`${propIndent}.wordBreak(WordBreak.BREAK_ALL)`);
+    }
+
+    return [
+      `${indent}Text("${escapeStr(text)}")`,
+      styles,
+      ...textModifiers,
+    ].filter(Boolean).join("\n") + posSuffix;
   }
 
   // ---- Button ----
