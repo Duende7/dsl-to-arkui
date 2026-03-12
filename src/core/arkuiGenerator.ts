@@ -177,11 +177,27 @@ function isAbsoluteNode(node: DslNode): boolean {
   return (node.props?.className ?? "").split(/\s+/).includes("absolute");
 }
 
-/** 从节点的合并 CSS 中提取 top/left → { x, y }（用于 .position()） */
+/** 绝对定位信息（供 .markAnchor() / .position() 修饰符使用） */
+interface AbsolutePos {
+  /** .position() x 值，如 "0" / "110" / "'100%'" / "'calc(100% - 16vp)'" */
+  px: string;
+  /** .position() y 值 */
+  py: string;
+  /** .markAnchor() x 值（仅 right 定位时需要） */
+  mx?: string;
+  /** .markAnchor() y 值（仅 bottom 定位时需要） */
+  my?: string;
+}
+
+/**
+ * 解析绝对定位节点的 CSS 定位属性 → AbsolutePos。
+ * 支持 top/left（直接映射到 position x/y）
+ * 以及 right/bottom（转换为 markAnchor + position 百分比写法）。
+ */
 function getNodePosition(
   node: DslNode,
   classStyleMap: ClassStyleMap
-): { x: number; y: number } {
+): AbsolutePos {
   const cls = (node.props?.className ?? "").split(/\s+/).filter(Boolean);
   const merged: StyleMap = {};
   for (const c of cls) {
@@ -190,10 +206,34 @@ function getNodePosition(
   for (const c of cls) {
     if (classStyleMap[c]) Object.assign(merged, classStyleMap[c]);
   }
-  return {
-    x: merged["left"] ? parsePositionValue(merged["left"]) : 0,
-    y: merged["top"]  ? parsePositionValue(merged["top"])  : 0,
-  };
+
+  // x 轴：优先 left，否则用 right
+  let px: string;
+  let mx: string | undefined;
+  if (merged["left"] !== undefined) {
+    px = String(parsePositionValue(merged["left"]));
+  } else if (merged["right"] !== undefined) {
+    const r = parsePositionValue(merged["right"]);
+    px = r === 0 ? "'100%'" : `'calc(100% - ${r}vp)'`;
+    mx = "'100%'";
+  } else {
+    px = "0";
+  }
+
+  // y 轴：优先 top，否则用 bottom
+  let py: string;
+  let my: string | undefined;
+  if (merged["top"] !== undefined) {
+    py = String(parsePositionValue(merged["top"]));
+  } else if (merged["bottom"] !== undefined) {
+    const b = parsePositionValue(merged["bottom"]);
+    py = b === 0 ? "'100%'" : `'calc(100% - ${b}vp)'`;
+    my = "'100%'";
+  } else {
+    py = "0";
+  }
+
+  return { px, py, mx, my };
 }
 
 // ---- 是否为图片节点（static/icon 前缀 + CSS 有 background url） ----
@@ -395,14 +435,20 @@ function generateNode(
   node: DslNode,
   classStyleMap: ClassStyleMap,
   depth: number,
-  absolutePos?: { x: number; y: number }
+  absolutePos?: AbsolutePos
 ): string {
   const indent     = "  ".repeat(depth);
   const propIndent = "  ".repeat(depth + 1);
-  // 如果父容器通过 Stack() 给此节点传入了绝对坐标，在末尾追加 .position()
-  const posSuffix  = absolutePos
-    ? `\n${indent}.position({ x: ${absolutePos.x}, y: ${absolutePos.y} })`
-    : "";
+  // 如果父容器通过 Stack() 给此节点传入了绝对坐标，在末尾追加定位修饰符
+  let posSuffix = "";
+  if (absolutePos) {
+    const { px, py, mx, my } = absolutePos;
+    // right/bottom 定位时需要 markAnchor 来移动元素的参考锚点
+    if (mx !== undefined || my !== undefined) {
+      posSuffix += `\n${indent}.markAnchor({ x: ${mx ?? "0"}, y: ${my ?? "0"} })`;
+    }
+    posSuffix += `\n${indent}.position({ x: ${px}, y: ${py} })`;
+  }
 
   const classNames = (node.props?.className ?? "").split(/\s+/).filter(Boolean);
 
