@@ -566,7 +566,8 @@ function generateNode(
   const merged   = mergeFlexFromCss(flexInfo, mergedStyle);
   const alignModifiers: string[] = [];
 
-  if (flexInfo.isFlex) {
+  // 只要 className 有 flex 或 CSS 里有 justify-content / align-items 就生成对齐修饰符
+  if (flexInfo.isFlex || mergedStyle["justify-content"] || mergedStyle["align-items"]) {
     if (merged.justify && FLEX_ALIGN_MAP[merged.justify]) {
       alignModifiers.push(`${indent}.justifyContent(${FLEX_ALIGN_MAP[merged.justify]})`);
     }

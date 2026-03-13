@@ -20,7 +20,11 @@ export function parseCss(css: string): ClassStyleMap {
       const colonIdx = decl.indexOf(":");
       if (colonIdx === -1) return;
       const prop = decl.slice(0, colonIdx).trim();
-      const val = decl.slice(colonIdx + 1).trim().replace(/\s*!important\s*$/, "");
+      const val = decl.slice(colonIdx + 1)
+        .replace(/\s*!important\s*$/, "")
+        .replace(/[\r\n]+/g, " ")  // 折叠换行（linear-gradient 等多行值）
+        .replace(/\s+/g, " ")
+        .trim();
       if (prop && val) styleMap[prop] = val;
     });
 
@@ -28,6 +32,103 @@ export function parseCss(css: string): ClassStyleMap {
   }
 
   return result;
+}
+
+// ---- 背景图 URL → ArkUI 资源引用 ----
+
+/** /4_5146.svg → $r('app.media.4_5146')；http://... → "http://..."（网络） */
+function urlToBackgroundRes(url: string): string {
+  if (url.startsWith("http://") || url.startsWith("https://")) return `"${url}"`;
+  const name = url.replace(/^\/+/, "").replace(/\.[^.]+$/, "");
+  return name ? `$r('app.media.${name}')` : '""';
+}
+
+// ---- CSS 颜色格式转换 ----
+
+/**
+ * CSS 8位十六进制 #RRGGBBAA → ArkUI #AARRGGBB。
+ * ArkUI 解析 8位 hex 时前两位为 alpha，与 CSS 相反。
+ * 3/6 位十六进制及其他格式保持不变。
+ */
+function cssHexToArkUIHex(hex: string): string {
+  if (/^#[0-9a-fA-F]{8}$/.test(hex)) {
+    const rr = hex.slice(1, 3);
+    const gg = hex.slice(3, 5);
+    const bb = hex.slice(5, 7);
+    const aa = hex.slice(7, 9);
+    return `#${aa}${rr}${gg}${bb}`;
+  }
+  return hex;
+}
+
+// ---- linear-gradient 解析 ----
+
+/**
+ * 将 CSS linear-gradient 转为 ArkUI .linearGradient() 修饰符。
+ * 支持格式：linear-gradient(180deg, #rrggbbaa stop%, ...)
+ */
+function parseLinearGradient(value: string): string | null {
+  // 提取 linear-gradient(...) 括号内内容
+  const inner = value.match(/linear-gradient\((.+)\)\s*$/s)?.[1];
+  if (!inner) return null;
+
+  // 按逗号分割各段，但逗号可能出现在 rgba() 里，用括号深度跳过
+  const parts: string[] = [];
+  let depth = 0;
+  let cur = "";
+  for (const ch of inner) {
+    if (ch === "(") { depth++; cur += ch; }
+    else if (ch === ")") { depth--; cur += ch; }
+    else if (ch === "," && depth === 0) { parts.push(cur.trim()); cur = ""; }
+    else { cur += ch; }
+  }
+  if (cur.trim()) parts.push(cur.trim());
+
+  if (parts.length < 2) return null;
+
+  // 第一段：角度（如 "180deg"）或方向（如 "to bottom"）
+  let angle: number | null = null;
+  let colorStart = 0;
+  const firstPart = parts[0];
+  const degMatch = firstPart.match(/^(-?\d+(?:\.\d+)?)deg$/i);
+  if (degMatch) {
+    angle = parseFloat(degMatch[1]);
+    colorStart = 1;
+  } else if (/^to\s+/i.test(firstPart)) {
+    // to bottom → 180, to top → 0, to right → 90, to left → 270
+    const dir = firstPart.replace(/^to\s+/i, "").trim().toLowerCase();
+    angle = { bottom: 180, top: 0, right: 90, left: 270 }[dir] ?? 180;
+    colorStart = 1;
+  } else {
+    // 没有角度，默认 180
+    angle = 180;
+    colorStart = 0;
+  }
+
+  // 解析颜色段："#rrggbbaa 11.8%"  或  "rgba(...) 50%"  或  "#rrggbbaa"
+  const colors: string[] = [];
+  for (let i = colorStart; i < parts.length; i++) {
+    const seg = parts[i].trim();
+    // 最后一个空格之前是颜色，之后是 stop（如 11.8%）
+    const spaceIdx = seg.lastIndexOf(" ");
+    let color: string;
+    let stop: string;
+    if (spaceIdx !== -1) {
+      color = seg.slice(0, spaceIdx).trim();
+      stop  = seg.slice(spaceIdx + 1).trim();
+    } else {
+      // 没有显式 stop，均匀分布
+      color = seg;
+      stop  = "";
+    }
+    const stopNum = stop.endsWith("%")
+      ? String(Math.round(parseFloat(stop) * 10) / 1000)  // "11.8%" → 0.118
+      : stop || String(Math.round((i - colorStart) / (parts.length - colorStart - 1) * 1000) / 1000);
+
+    colors.push(`      ['${cssHexToArkUIHex(color)}', ${stopNum}]`);
+  }
+
+  return `.linearGradient({\n    angle: ${angle},\n    colors: [\n${colors.join(",\n")}\n    ]\n  })`;
 }
 
 // ---- 长度单位转换 ----
@@ -88,7 +189,6 @@ const SKIP_PROPS = new Set([
   "justify-content",
   "align-items",
   "align-self",
-  "background-size",
   "background-repeat",
   "background-position",
   "flex-wrap",
@@ -132,10 +232,27 @@ export function convertCssPropToArkUI(prop: string, value: string): string | nul
     case "background-color":
       return `.backgroundColor("${value}")`;
 
-    case "background":
-      // 跳过 url(...) 类型
-      if (value.includes("url(")) return null;
+    case "background": {
+      // linear-gradient → .linearGradient({ angle, colors })
+      if (value.includes("linear-gradient")) return parseLinearGradient(value);
+      // url(...) → 容器背景图 .backgroundImage()
+      if (value.includes("url(")) {
+        const m = value.match(/url\(["']?([^"')]+)["']?\)/);
+        if (!m) return null;
+        const url = m[1];
+        const res = urlToBackgroundRes(url);
+        return `.backgroundImage(${res})`;
+      }
       return `.backgroundColor("${value}")`;
+    }
+
+    case "background-size": {
+      const v = value.trim().toLowerCase();
+      if (v === "cover" || v === "100%" || v === "100% 100%")
+        return `.backgroundImageSize(ImageSize.Cover)`;
+      if (v === "contain") return `.backgroundImageSize(ImageSize.Contain)`;
+      return `.backgroundImageSize(ImageSize.Auto)`;
+    }
 
     case "width":
       // calc(100% - X) → ArkUI 中对应 layoutWeight(1)，占满剩余空间
@@ -247,6 +364,13 @@ export function convertCssPropToArkUI(prop: string, value: string): string | nul
 
     case "visibility":
       return value === "hidden" ? `.visibility(Visibility.Hidden)` : `.visibility(Visibility.Visible)`;
+
+    case "backdrop-filter": {
+      // backdrop-filter: blur(1.875rem) → .backdropBlur(30)
+      const m = value.match(/blur\(([^)]+)\)/);
+      if (m) return `.backdropBlur(${parseLength(m[1])})`;
+      return null;
+    }
 
     default:
       return null;
