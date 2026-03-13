@@ -608,6 +608,9 @@ function generateNode(
       `${innerIndent}${component}(${spaceParam}) {`,
       ...innerChildLines,
       `${innerIndent}}`,
+      // 内层容器必须撑满 Stack，否则 justifyContent/alignItems 无法生效
+      `${innerIndent}.width("100%")`,
+      `${innerIndent}.height("100%")`,
       ...innerAlignMods,
     ].filter(Boolean) : [];
 
