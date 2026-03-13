@@ -316,8 +316,12 @@ export function convertCssPropToArkUI(prop: string, value: string): string | nul
       return null;
     }
 
-    case "line-height":
+    case "line-height": {
+      // 无单位值（如 "1"、"1.5"）是相对字号的倍数，需要结合 font-size 才能算出 vp 值。
+      // 此处无字号上下文，跳过；由 generateNode 在 Text 路径中按字号换算后统一输出。
+      if (!isNaN(Number(value.trim()))) return null;
       return `.lineHeight(${parseLength(value)})`;
+    }
 
     case "text-align":
       return `.textAlign(${mapTextAlign(value)})`;

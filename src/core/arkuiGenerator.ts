@@ -500,11 +500,27 @@ function generateNode(
       textModifiers.push(`${propIndent}.maxLines(1)`);
       textModifiers.push(`${propIndent}.textOverflow({ overflow: TextOverflow.Ellipsis })`);
     } else if (isMultiLine) {
-      // 若同时设置了 height 和 line-height，计算最多可显示的行数
-      const h  = mergedStyle["height"]      ? parseLengthNum(mergedStyle["height"])      : 0;
-      const lh = mergedStyle["line-height"] ? parseLengthNum(mergedStyle["line-height"]) : 0;
-      if (h > 0 && lh > 0) {
-        const maxLines = Math.floor(h / lh);
+      const h      = mergedStyle["height"]      ? parseLengthNum(mergedStyle["height"])      : 0;
+      const lhRaw  = mergedStyle["line-height"] ?? "";
+      const fsVp   = mergedStyle["font-size"]   ? parseLengthNum(mergedStyle["font-size"])   : 0;
+
+      // 判断 line-height 是否为无单位倍数（如 "1"、"1.5"）
+      const isUnitlessLh = lhRaw !== "" && !isNaN(Number(lhRaw.trim()))
+        && !lhRaw.includes("rem") && !lhRaw.includes("px");
+
+      // 换算为实际 vp：无单位 → 乘以字号；有单位 → 直接转换
+      const lhVp = isUnitlessLh
+        ? Math.round(Number(lhRaw.trim()) * fsVp * 10) / 10
+        : parseLengthNum(lhRaw);
+
+      // 无单位 line-height 被 cssParser 跳过，需在这里补回 .lineHeight()
+      if (isUnitlessLh && lhVp > 0) {
+        textModifiers.push(`${propIndent}.lineHeight(${lhVp})`);
+      }
+
+      // 用实际行高计算最多行数
+      if (h > 0 && lhVp > 0) {
+        const maxLines = Math.floor(h / lhVp);
         if (maxLines > 1) textModifiers.push(`${propIndent}.maxLines(${maxLines})`);
       }
       textModifiers.push(`${propIndent}.wordBreak(WordBreak.BREAK_ALL)`);
@@ -646,13 +662,19 @@ function generateNode(
 function generatePage(page: DslPage): string {
   const classStyleMap = parseCss(page.css ?? "");
   const structName    = sanitizeName(page.fileName || "Page");
+  const children      = Array.isArray(page.children) ? page.children : [];
 
-  // depth=3：build > Scroll > 内容根节点
-  const bodyLines: string[] = [];
-  if (Array.isArray(page.children)) {
-    for (const child of page.children) {
-      bodyLines.push(generateNode(child as DslNode, classStyleMap, 3));
-    }
+  // Scroll 只能有一个子组件：
+  // - 单子节点：直接作为 Scroll 的子节点（depth=3）
+  // - 多子节点：用 Column 包裹后再放入 Scroll（depth=4）
+  let scrollBody: string;
+  if (children.length === 1) {
+    scrollBody = generateNode(children[0] as DslNode, classStyleMap, 3);
+  } else {
+    const childLines = children.map(c =>
+      generateNode(c as DslNode, classStyleMap, 4)
+    );
+    scrollBody = [`      Column() {`, ...childLines, `      }`].join("\n");
   }
 
   return [
@@ -661,7 +683,7 @@ function generatePage(page: DslPage): string {
     `struct ${structName} {`,
     `  build() {`,
     `    Scroll() {`,
-    ...bodyLines,
+    scrollBody,
     `    }`,
     `  }`,
     `}`,
