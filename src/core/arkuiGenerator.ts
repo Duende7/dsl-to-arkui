@@ -626,7 +626,6 @@ function generateNode(
       `${innerIndent}}`,
       // 内层容器必须撑满 Stack，否则 justifyContent/alignItems 无法生效
       `${innerIndent}.width("100%")`,
-      `${innerIndent}.height("100%")`,
       ...innerAlignMods,
     ].filter(Boolean) : [];
 
@@ -666,15 +665,46 @@ function generatePage(page: DslPage): string {
 
   // Scroll 只能有一个子组件：
   // - 单子节点：直接作为 Scroll 的子节点（depth=3）
-  // - 多子节点：用 Column 包裹后再放入 Scroll（depth=4）
+  // - 多子节点且无绝对定位子节点：用 Column 包裹（depth=4）
+  // - 多子节点含绝对定位子节点：用 Stack 包裹，绝对定位节点用 .position() 叠加（depth=4）
   let scrollBody: string;
   if (children.length === 1) {
     scrollBody = generateNode(children[0] as DslNode, classStyleMap, 3);
   } else {
-    const childLines = children.map(c =>
-      generateNode(c as DslNode, classStyleMap, 4)
-    );
-    scrollBody = [`      Column() {`, ...childLines, `      }`].join("\n");
+    const absChildren  = (children as DslNode[]).filter(c => isAbsoluteNode(c));
+    const normChildren = (children as DslNode[]).filter(c => !isAbsoluteNode(c));
+
+    if (absChildren.length > 0) {
+      const outerIndent = "      ";   // depth=3
+      const innerIndent = "        "; // depth=4
+
+      const innerChildLines = normChildren.map(c =>
+        generateNode(c, classStyleMap, 4)
+      );
+      const innerContainerLines = normChildren.length > 0 ? [
+        `${innerIndent}Column() {`,
+        ...innerChildLines,
+        `${innerIndent}}`,
+        `${innerIndent}.width("100%")`,
+      ] : [];
+
+      const absChildLines = absChildren.map(c => {
+        const pos = getNodePosition(c, classStyleMap);
+        return generateNode(c, classStyleMap, 4, pos);
+      });
+
+      scrollBody = [
+        `${outerIndent}Stack({ alignContent: Alignment.TopStart }) {`,
+        ...innerContainerLines,
+        ...absChildLines,
+        `${outerIndent}}`,
+      ].join("\n");
+    } else {
+      const childLines = (children as DslNode[]).map(c =>
+        generateNode(c, classStyleMap, 4)
+      );
+      scrollBody = [`      Column() {`, ...childLines, `      }`].join("\n");
+    }
   }
 
   return [
