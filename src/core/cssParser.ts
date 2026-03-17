@@ -188,7 +188,6 @@ const SKIP_PROPS = new Set([
   "flex-direction",
   "justify-content",
   "align-items",
-  "align-self",
   "background-repeat",
   "background-position",
   "flex-wrap",
@@ -262,6 +261,16 @@ export function convertCssPropToArkUI(prop: string, value: string): string | nul
     case "height":
       if (value.trim().startsWith("calc(")) return null; // 跳过不支持的 calc
       return `.height(${parseLength(value)})`;
+
+    case "align-self": {
+      const v = value.trim();
+      if (v === "flex-start") return `.alignSelf(ItemAlign.Start)`;
+      if (v === "flex-end")   return `.alignSelf(ItemAlign.End)`;
+      if (v === "center")     return `.alignSelf(ItemAlign.Center)`;
+      if (v === "stretch")    return `.alignSelf(ItemAlign.Stretch)`;
+      if (v === "baseline")   return `.alignSelf(ItemAlign.Baseline)`;
+      return null;
+    }
 
     case "flex": {
       // flex: 1 / flex: 2 等 → layoutWeight(n)，表示占满剩余空间

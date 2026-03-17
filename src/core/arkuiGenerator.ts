@@ -199,18 +199,22 @@ function getNodePosition(
   classStyleMap: ClassStyleMap
 ): AbsolutePos {
   const cls = (node.props?.className ?? "").split(/\s+/).filter(Boolean);
-  const merged: StyleMap = {};
-  for (const c of cls) {
-    if (PUBLIC_CLASS_STYLE_MAP[c]) Object.assign(merged, PUBLIC_CLASS_STYLE_MAP[c]);
-  }
-  for (const c of cls) {
-    if (classStyleMap[c]) Object.assign(merged, classStyleMap[c]);
-  }
 
-  // x 轴：优先 left，否则用 right
+  // 分别收集 publicClass（低优先级）和 page CSS（高优先级）的定位属性
+  const pubMerged: StyleMap = {};
+  const pageMerged: StyleMap = {};
+  for (const c of cls) {
+    if (PUBLIC_CLASS_STYLE_MAP[c]) Object.assign(pubMerged, PUBLIC_CLASS_STYLE_MAP[c]);
+    if (classStyleMap[c])          Object.assign(pageMerged, classStyleMap[c]);
+  }
+  const merged: StyleMap = { ...pubMerged, ...pageMerged };
+
+  // x 轴：page CSS 明确设置了 right 但未设置 left → 优先用 right，
+  // 避免 publicClass 的 left: 0 错误覆盖 page CSS 的 right 定位
+  const preferRight_x = pageMerged["right"] !== undefined && pageMerged["left"] === undefined;
   let px: string;
   let mx: string | undefined;
-  if (merged["left"] !== undefined) {
+  if (!preferRight_x && merged["left"] !== undefined) {
     px = String(parsePositionValue(merged["left"]));
   } else if (merged["right"] !== undefined) {
     const r = parsePositionValue(merged["right"]);
@@ -220,10 +224,11 @@ function getNodePosition(
     px = "0";
   }
 
-  // y 轴：优先 top，否则用 bottom
+  // y 轴：page CSS 明确设置了 bottom 但未设置 top → 优先用 bottom
+  const preferBottom_y = pageMerged["bottom"] !== undefined && pageMerged["top"] === undefined;
   let py: string;
   let my: string | undefined;
-  if (merged["top"] !== undefined) {
+  if (!preferBottom_y && merged["top"] !== undefined) {
     py = String(parsePositionValue(merged["top"]));
   } else if (merged["bottom"] !== undefined) {
     const b = parsePositionValue(merged["bottom"]);
